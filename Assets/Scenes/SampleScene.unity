@@ -4045,7 +4045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427918700}
   m_Layer: 0
-  m_Name: Checkpoint (2)
+  m_Name: L0.cp3
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4074,6 +4074,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1486390266050351592, guid: f8cb93876624df7919bd42ff2d372234, type: 3}
+      propertyPath: value
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486390266050351592, guid: f8cb93876624df7919bd42ff2d372234, type: 3}
+      propertyPath: hitpoints
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1486390266050351592, guid: f8cb93876624df7919bd42ff2d372234, type: 3}
       propertyPath: movespeed
       value: 1.6
@@ -4181,7 +4189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 481491010}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: L0.spawn
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7804,7 +7812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575700574}
   m_Layer: 0
-  m_Name: Checkpoint
+  m_Name: L0.cp1
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7966,7 +7974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1615706732}
   m_Layer: 0
-  m_Name: Checkpoint (1)
+  m_Name: L0.cp2
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7997,7 +8005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961281337}
   m_Layer: 0
-  m_Name: Checkpoint (4)
+  m_Name: L0.cp5
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -8028,7 +8036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057870985}
   m_Layer: 0
-  m_Name: Checkpoint (3)
+  m_Name: L0.cp4
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -8057,6 +8065,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2948898214634269353, guid: cddb5e3c51da18694b66feccdee13690, type: 3}
+      propertyPath: value
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948898214634269353, guid: cddb5e3c51da18694b66feccdee13690, type: 3}
+      propertyPath: damage
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948898214634269353, guid: cddb5e3c51da18694b66feccdee13690, type: 3}
+      propertyPath: hitpoints
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6562257653597117333, guid: cddb5e3c51da18694b66feccdee13690, type: 3}
       propertyPath: m_Name
       value: Slime
@@ -8114,6 +8134,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2197170764717746729, guid: bd67a41562db1202ba8e4622039ffb21, type: 3}
+      propertyPath: value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197170764717746729, guid: bd67a41562db1202ba8e4622039ffb21, type: 3}
+      propertyPath: damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197170764717746729, guid: bd67a41562db1202ba8e4622039ffb21, type: 3}
+      propertyPath: hitpoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3138396879903315634, guid: bd67a41562db1202ba8e4622039ffb21, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.48
@@ -8210,6 +8242,18 @@ PrefabInstance:
     - target: {fileID: 3675405979575376162, guid: ca5fc8268cf71fbd397272ca0364eadf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486807675058869672, guid: ca5fc8268cf71fbd397272ca0364eadf, type: 3}
+      propertyPath: value
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486807675058869672, guid: ca5fc8268cf71fbd397272ca0364eadf, type: 3}
+      propertyPath: damage
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486807675058869672, guid: ca5fc8268cf71fbd397272ca0364eadf, type: 3}
+      propertyPath: hitpoints
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4486807675058869672, guid: ca5fc8268cf71fbd397272ca0364eadf, type: 3}
       propertyPath: movespeed

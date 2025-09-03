@@ -5,6 +5,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
   [SerializeField] private float movespeed = 2f;
+  [SerializeField] private int hitpoints = 2;
+  [SerializeField] private int value = 5;
+  [SerializeField] private int damage = 5;
 
   private Rigidbody2D rb;
 
