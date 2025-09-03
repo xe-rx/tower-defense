@@ -130,6 +130,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 3
+  hitpoints: 1
+  value: 2
+  damage: 1
 --- !u!95 &5241917282626193175
 Animator:
   serializedVersion: 7
