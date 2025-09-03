@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-  [SerializeField] private float movespeed = 2f;
-  [SerializeField] private int hitpoints = 2;
-  [SerializeField] private int value = 5;
-  [SerializeField] private int damage = 5;
+  [SerializeField] private float movespeed = 0f;
+  [SerializeField] private int hitpoints = 0;
+  [SerializeField] private int value = 0;
+  [SerializeField] private int damage = 0;
 
   private Rigidbody2D rb;
 
