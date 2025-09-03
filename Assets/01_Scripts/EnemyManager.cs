@@ -2,23 +2,23 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public static EnemyManager main;
+  public static EnemyManager main;
 
-    public Transform spawnpoint;
-    public Transform[] checkpoints;
+  public Transform spawnpoint;
+  public Transform[] checkpoints;
 
-    void Awake()
-    {
-      main = this;
-    }
+  void Awake()
+  {
+    main = this;
+  }
 
-    void Start()
-    {
+  void Start()
+  {
 
-    }
+  }
 
-    void Update()
-    {
+  void Update()
+  {
 
-    }
+  }
 }
