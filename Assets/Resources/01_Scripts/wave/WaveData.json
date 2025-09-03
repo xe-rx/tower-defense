@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "enemyCatalog": [
+    { "id": "rat", "prefab": "05_Prefabs/Rat", "threatCost": 1 },
+    { "id": "bat", "prefab": "05_Prefabs/Bat", "threatCost": 3 },
+    { "id": "slime", "prefab": "05_Prefabs/Slime", "threatCost": 5 },
+    { "id": "elf", "prefab": "05_Prefabs/Elf", "threatCost": 12 }
+  ],
+  "preDeterminedWaves": 25,
+  "waves": [
+    {
+      "id": 1,
+      "entries": [
+        { "enemy": "rat", "count": 5, "interval": 0.8, "delay": 0, "lane": 0 }
+      ],
+      "rewardGold": 20
+    },
+    {
+      "id": 2,
+      "entries": [
+        { "enemy": "rat", "count": 5, "interval": 0.8, "delay": 0, "lane": 0 },
+        {
+          "enemy": "rat",
+          "count": 5,
+          "interval": 0.8,
+          "delay": 5.0,
+          "lane": 0
+        },
+        {
+          "enemy": "rat",
+          "count": 10,
+          "interval": 0.8,
+          "delay": 12.0,
+          "lane": 0
+        }
+      ],
+      "rewardGold": 30
+    },
+    {
+      "id": 3,
+      "entries": [
+        { "enemy": "bat", "count": 3, "interval": 2.0, "delay": 0, "lane": 0 },
+        {
+          "enemy": "rat",
+          "count": 10,
+          "interval": 0.8,
+          "delay": 15.0,
+          "lane": 0
+        }
+      ],
+      "rewardGold": 40
+    }
+  ]
+}

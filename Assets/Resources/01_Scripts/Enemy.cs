@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour
       if (index >= EnemyManager.main.checkpoints.Length)
       {
         Destroy(gameObject);
+        EnemyTracker.AliveCount--;
       }
     }
   }

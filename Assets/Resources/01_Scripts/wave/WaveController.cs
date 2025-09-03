@@ -93,7 +93,7 @@ public class WaveController : MonoBehaviour
     if (State != WaveState.Paused) return;
 
     _scheduler.Resume();
-    State = _scheduler.HasActiveTimeLine ? WaveState.Spawning : WaveState.Intermission;
+    State = _scheduler.HasActiveTimeline ? WaveState.Spawning : WaveState.Intermission;
   }
 
   public void SetGameOver()
