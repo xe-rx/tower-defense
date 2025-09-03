@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Inspired by: https://www.youtube.com/watch?v=hDtDI0uX42M&t=3s
+
 public class Enemy : MonoBehaviour
 {
   [SerializeField] private float movespeed = 0f;
