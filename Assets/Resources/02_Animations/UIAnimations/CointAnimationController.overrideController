@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CointAnimationController
+  m_Controller: {fileID: 9100000, guid: 7ab90f05d9dbb2a7da98b5cdf28872e1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fffe9256587fb63959292827887e823f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c75cfb13dc1b5ee9088ae0419d4cc054, type: 2}

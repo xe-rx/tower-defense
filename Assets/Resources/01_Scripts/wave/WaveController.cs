@@ -109,7 +109,7 @@ public class WaveController : MonoBehaviour
     // TEMPORARY WAY OF HANDLING
     if (wave == null)
     {
-      Debug.LogWarning($"No wae data for index {WaveIndex}, ending");
+      Debug.LogWarning($"No way data for index {WaveIndex}, ending");
       State = WaveState.GameOver;
       return;
     }
