@@ -76,7 +76,7 @@ Material:
     - _OverlayScale: 0.006944444
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 0.11
+    - _Scale: 0.065
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
