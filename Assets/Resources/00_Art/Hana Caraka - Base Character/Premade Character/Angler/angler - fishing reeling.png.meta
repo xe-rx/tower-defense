@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 63e7aba68ea87353ba5f6cab3134590f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3269915275932499405
+    second: angler - fishing reeling_0
+  - first:
+      213: -1579610543769041055
+    second: angler - fishing reeling_1
+  - first:
+      213: 4921985033626325927
+    second: angler - fishing reeling_2
+  - first:
+      213: -8564095172769149760
+    second: angler - fishing reeling_3
+  - first:
+      213: 2617558335737278204
+    second: angler - fishing reeling_4
+  - first:
+      213: 4200825578706012134
+    second: angler - fishing reeling_5
+  - first:
+      213: -3881773686811554173
+    second: angler - fishing reeling_6
+  - first:
+      213: -3016200644523063233
+    second: angler - fishing reeling_7
+  - first:
+      213: 6176731796144516519
+    second: angler - fishing reeling_8
+  - first:
+      213: -1878891075599529632
+    second: angler - fishing reeling_9
+  - first:
+      213: 2328384566754252000
+    second: angler - fishing reeling_10
+  - first:
+      213: -5418534978625332570
+    second: angler - fishing reeling_11
+  - first:
+      213: -2943217907400226695
+    second: angler - fishing reeling_12
+  - first:
+      213: 74337381899124938
+    second: angler - fishing reeling_13
+  - first:
+      213: -7426338716386143905
+    second: angler - fishing reeling_14
+  - first:
+      213: -4682028201543457380
+    second: angler - fishing reeling_15
+  - first:
+      213: 8188667668743374596
+    second: angler - fishing reeling_16
+  - first:
+      213: 5257693892010449656
+    second: angler - fishing reeling_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angler - fishing reeling_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 184
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3328b6c916dee92d0800000000000000
+      internalID: -3269915275932499405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 184
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1674f2f5498141ae0800000000000000
+      internalID: -1579610543769041055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 184
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3161f6f476e4440800000000000000
+      internalID: 4921985033626325927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 184
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc057c90d8362980800000000000000
+      internalID: -8564095172769149760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 184
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeab7c107f635420800000000000000
+      internalID: 2617558335737278204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 184
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7852e5b945c4a30800000000000000
+      internalID: 4200825578706012134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 91
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e832bf56b212ac0800000000000000
+      internalID: -3881773686811554173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 91
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3806eb8e7d4426d0800000000000000
+      internalID: -3016200644523063233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 91
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aded06c7d828b550800000000000000
+      internalID: 6176731796144516519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 91
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0690d338586dce5e0800000000000000
+      internalID: -1878891075599529632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 91
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e493e95d65105020800000000000000
+      internalID: 2328384566754252000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 91
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa1204452f7dc4b0800000000000000
+      internalID: -5418534978625332570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97847d438e69727d0800000000000000
+      internalID: -2943217907400226695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 31
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac041a97479180100800000000000000
+      internalID: 74337381899124938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_14
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 31
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51d21ca84850f890800000000000000
+      internalID: -7426338716386143905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 31
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9524aa3828160fb0800000000000000
+      internalID: -4682028201543457380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 31
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407cc2bfbddf3a170800000000000000
+      internalID: 8188667668743374596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - fishing reeling_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 31
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa16030db417f840800000000000000
+      internalID: 5257693892010449656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      angler - fishing reeling_0: -3269915275932499405
+      angler - fishing reeling_1: -1579610543769041055
+      angler - fishing reeling_10: 2328384566754252000
+      angler - fishing reeling_11: -5418534978625332570
+      angler - fishing reeling_12: -2943217907400226695
+      angler - fishing reeling_13: 74337381899124938
+      angler - fishing reeling_14: -7426338716386143905
+      angler - fishing reeling_15: -4682028201543457380
+      angler - fishing reeling_16: 8188667668743374596
+      angler - fishing reeling_17: 5257693892010449656
+      angler - fishing reeling_2: 4921985033626325927
+      angler - fishing reeling_3: -8564095172769149760
+      angler - fishing reeling_4: 2617558335737278204
+      angler - fishing reeling_5: 4200825578706012134
+      angler - fishing reeling_6: -3881773686811554173
+      angler - fishing reeling_7: -3016200644523063233
+      angler - fishing reeling_8: 6176731796144516519
+      angler - fishing reeling_9: -1878891075599529632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

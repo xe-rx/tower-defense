@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 3182a49beca4b44459afec36bc2e3a84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1230616717456389240
+    second: farmer - sickle_0
+  - first:
+      213: 598080861526482868
+    second: farmer - sickle_1
+  - first:
+      213: -7766789972850687818
+    second: farmer - sickle_2
+  - first:
+      213: -2943556788501557010
+    second: farmer - sickle_3
+  - first:
+      213: 5930801681955832989
+    second: farmer - sickle_4
+  - first:
+      213: -6404279055517767152
+    second: farmer - sickle_5
+  - first:
+      213: -5141201629267302245
+    second: farmer - sickle_6
+  - first:
+      213: -9169786817000451696
+    second: farmer - sickle_7
+  - first:
+      213: -4837688106397301823
+    second: farmer - sickle_8
+  - first:
+      213: -8942772897535062477
+    second: farmer - sickle_9
+  - first:
+      213: -8096040473862107407
+    second: farmer - sickle_10
+  - first:
+      213: -4944969122457970947
+    second: farmer - sickle_11
+  - first:
+      213: -1378475230570684654
+    second: farmer - sickle_12
+  - first:
+      213: 430335933955309419
+    second: farmer - sickle_13
+  - first:
+      213: -1837792515520323319
+    second: farmer - sickle_14
+  - first:
+      213: 3083359378385836181
+    second: farmer - sickle_15
+  - first:
+      213: -3201334858483229143
+    second: farmer - sickle_16
+  - first:
+      213: 4840673180175346657
+    second: farmer - sickle_17
+  - first:
+      213: -7629027316660244498
+    second: farmer - sickle_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmer - sickle_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 192
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bca559d98fbeee0800000000000000
+      internalID: -1230616717456389240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfde32ff5fcc4800800000000000000
+      internalID: 598080861526482868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b04b2f7ba1d63490800000000000000
+      internalID: -7766789972850687818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 192
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0dc2d42b26627d0800000000000000
+      internalID: -2943556788501557010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 192
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94444ef4b07e4250800000000000000
+      internalID: 5930801681955832989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa36d512e6f17a0800000000000000
+      internalID: -6404279055517767152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 112
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98ecd08b58c6a8b0800000000000000
+      internalID: -5141201629267302245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 112
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091d0aa397f5eb080800000000000000
+      internalID: -9169786817000451696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 110
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c38e046c441ddcb0800000000000000
+      internalID: -4837688106397301823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 103
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e8e673e63e4e380800000000000000
+      internalID: -8942772897535062477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 104
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe834c651615af80800000000000000
+      internalID: -8096040473862107407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_11
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 112
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df61e9e58c0ff5bb0800000000000000
+      internalID: -4944969122457970947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fd82ec41caedce0800000000000000
+      internalID: -1378475230570684654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ffd7d704cd8f500800000000000000
+      internalID: 430335933955309419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 25
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9012a85b179de76e0800000000000000
+      internalID: -1837792515520323319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5989e8fa40b4aca20800000000000000
+      internalID: 3083359378385836181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 31
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e180958e29293d0800000000000000
+      internalID: -3201334858483229143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 31
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebac124c968d2340800000000000000
+      internalID: 4840673180175346657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer - sickle_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 31
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefe6b86310402690800000000000000
+      internalID: -7629027316660244498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      farmer - sickle_0: -1230616717456389240
+      farmer - sickle_1: 598080861526482868
+      farmer - sickle_10: -8096040473862107407
+      farmer - sickle_11: -4944969122457970947
+      farmer - sickle_12: -1378475230570684654
+      farmer - sickle_13: 430335933955309419
+      farmer - sickle_14: -1837792515520323319
+      farmer - sickle_15: 3083359378385836181
+      farmer - sickle_16: -3201334858483229143
+      farmer - sickle_17: 4840673180175346657
+      farmer - sickle_18: -7629027316660244498
+      farmer - sickle_2: -7766789972850687818
+      farmer - sickle_3: -2943556788501557010
+      farmer - sickle_4: 5930801681955832989
+      farmer - sickle_5: -6404279055517767152
+      farmer - sickle_6: -5141201629267302245
+      farmer - sickle_7: -9169786817000451696
+      farmer - sickle_8: -4837688106397301823
+      farmer - sickle_9: -8942772897535062477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

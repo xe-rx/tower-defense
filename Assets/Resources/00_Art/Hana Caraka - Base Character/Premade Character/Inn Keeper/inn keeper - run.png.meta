@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: e2d4253c37d1fe038ae06af5c6c8d030
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7503908059574105806
+    second: inn keeper - run_0
+  - first:
+      213: 8642789447727961627
+    second: inn keeper - run_1
+  - first:
+      213: 9217052545194879175
+    second: inn keeper - run_2
+  - first:
+      213: -7059690247486258110
+    second: inn keeper - run_3
+  - first:
+      213: -6321215680917866014
+    second: inn keeper - run_4
+  - first:
+      213: -3440236035015355002
+    second: inn keeper - run_5
+  - first:
+      213: 1069269529952613875
+    second: inn keeper - run_6
+  - first:
+      213: -2576201699047451762
+    second: inn keeper - run_7
+  - first:
+      213: -8546174693771660029
+    second: inn keeper - run_8
+  - first:
+      213: -3043036420210275302
+    second: inn keeper - run_9
+  - first:
+      213: 1114952149989059512
+    second: inn keeper - run_10
+  - first:
+      213: -140255286810746023
+    second: inn keeper - run_11
+  - first:
+      213: -6346662017632997891
+    second: inn keeper - run_12
+  - first:
+      213: 2824458215666128927
+    second: inn keeper - run_13
+  - first:
+      213: -2419961357711306022
+    second: inn keeper - run_14
+  - first:
+      213: 6297227363764909673
+    second: inn keeper - run_15
+  - first:
+      213: 5317557630819996665
+    second: inn keeper - run_16
+  - first:
+      213: 5721008279449719964
+    second: inn keeper - run_17
+  - first:
+      213: -7091076147119636926
+    second: inn keeper - run_18
+  - first:
+      213: 6268875442369950770
+    second: inn keeper - run_19
+  - first:
+      213: -7731098608525661249
+    second: inn keeper - run_20
+  - first:
+      213: -2991372604539382311
+    second: inn keeper - run_21
+  - first:
+      213: -8431427172546101554
+    second: inn keeper - run_22
+  - first:
+      213: -7480160673634776064
+    second: inn keeper - run_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inn keeper - run_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6fa1e6f9c332860800000000000000
+      internalID: 7503908059574105806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 193
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16d154163b51f770800000000000000
+      internalID: 8642789447727961627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 192
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c86370b47c89ef70800000000000000
+      internalID: 9217052545194879175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244ca4eaf11f60e90800000000000000
+      internalID: -7059690247486258110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9f24654d78648a0800000000000000
+      internalID: -6321215680917866014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 193
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6855965ad83d140d0800000000000000
+      internalID: -3440236035015355002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f579f5e8fec6de00800000000000000
+      internalID: 1069269529952613875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 192
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83d48a343e7f3cd0800000000000000
+      internalID: -2576201699047451762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305be454563e56980800000000000000
+      internalID: -8546174693771660029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4ace9f76f4c5d0800000000000000
+      internalID: -3043036420210275302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbe7a9b21b197f00800000000000000
+      internalID: 1114952149989059512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95366cb4f86bd0ef0800000000000000
+      internalID: -140255286810746023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd658165802ce7a0800000000000000
+      internalID: -6346662017632997891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 112
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1896b358cd723720800000000000000
+      internalID: 2824458215666128927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 112
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2127777f19a6ed0800000000000000
+      internalID: -2419961357711306022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_15
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 112
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b3175cee346750800000000000000
+      internalID: 6297227363764909673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f391b9dd72cbc940800000000000000
+      internalID: 5317557630819996665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c945bad08ba156f40800000000000000
+      internalID: 5721008279449719964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e30b770df679d90800000000000000
+      internalID: -7091076147119636926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23471ab30058ff650800000000000000
+      internalID: 6268875442369950770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbaf43d6ce95b490800000000000000
+      internalID: -7731098608525661249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 32
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5589317728c76d0800000000000000
+      internalID: -2991372604539382311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece30de78ad8dfa80800000000000000
+      internalID: -8431427172546101554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - run_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c0729bf71213890800000000000000
+      internalID: -7480160673634776064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inn keeper - run_0: 7503908059574105806
+      inn keeper - run_1: 8642789447727961627
+      inn keeper - run_10: 1114952149989059512
+      inn keeper - run_11: -140255286810746023
+      inn keeper - run_12: -6346662017632997891
+      inn keeper - run_13: 2824458215666128927
+      inn keeper - run_14: -2419961357711306022
+      inn keeper - run_15: 6297227363764909673
+      inn keeper - run_16: 5317557630819996665
+      inn keeper - run_17: 5721008279449719964
+      inn keeper - run_18: -7091076147119636926
+      inn keeper - run_19: 6268875442369950770
+      inn keeper - run_2: 9217052545194879175
+      inn keeper - run_20: -7731098608525661249
+      inn keeper - run_21: -2991372604539382311
+      inn keeper - run_22: -8431427172546101554
+      inn keeper - run_23: -7480160673634776064
+      inn keeper - run_3: -7059690247486258110
+      inn keeper - run_4: -6321215680917866014
+      inn keeper - run_5: -3440236035015355002
+      inn keeper - run_6: 1069269529952613875
+      inn keeper - run_7: -2576201699047451762
+      inn keeper - run_8: -8546174693771660029
+      inn keeper - run_9: -3043036420210275302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

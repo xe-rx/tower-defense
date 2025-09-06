@@ -11,7 +11,10 @@
     {
       "id": 1,
       "entries": [
-        { "enemy": "rat", "count": 5, "interval": 0.8, "delay": 0, "lane": 0 }
+        { "enemy": "rat", "count": 1, "interval": 0.8, "delay": 0, "lane": 0 },
+        { "enemy": "bat", "count": 1, "interval": 0.8, "delay": 0.5, "lane": 0 },
+        { "enemy": "slime", "count": 1, "interval": 0.8, "delay": 1, "lane": 0 },
+        { "enemy": "elf", "count": 1, "interval": 0.8, "delay": 1.5, "lane": 0 }
       ],
       "rewardGold": 20
     },

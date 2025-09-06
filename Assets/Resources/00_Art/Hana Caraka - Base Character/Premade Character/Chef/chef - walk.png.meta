@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: a32b169aabca20cd0a2afd286e29d1f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2943465490952124788
+    second: chef - walk_0
+  - first:
+      213: 6229693972406894011
+    second: chef - walk_1
+  - first:
+      213: 9089757990877575303
+    second: chef - walk_2
+  - first:
+      213: -4800681950572359174
+    second: chef - walk_3
+  - first:
+      213: -9135855317446492048
+    second: chef - walk_4
+  - first:
+      213: -7110252640799668846
+    second: chef - walk_5
+  - first:
+      213: 2662079254854225238
+    second: chef - walk_6
+  - first:
+      213: 6716138225021140694
+    second: chef - walk_7
+  - first:
+      213: 7567553708231779394
+    second: chef - walk_8
+  - first:
+      213: -811666332842379113
+    second: chef - walk_9
+  - first:
+      213: -8640755688648073691
+    second: chef - walk_10
+  - first:
+      213: -7523358455966516084
+    second: chef - walk_11
+  - first:
+      213: -5733738753529534244
+    second: chef - walk_12
+  - first:
+      213: -5276146463330986043
+    second: chef - walk_13
+  - first:
+      213: 7703126923287954413
+    second: chef - walk_14
+  - first:
+      213: -6116851308307571307
+    second: chef - walk_15
+  - first:
+      213: 5702500201898191481
+    second: chef - walk_16
+  - first:
+      213: -2230548094121533285
+    second: chef - walk_17
+  - first:
+      213: 2654859426724617359
+    second: chef - walk_18
+  - first:
+      213: 1164100593782967178
+    second: chef - walk_19
+  - first:
+      213: 8119825638411296280
+    second: chef - walk_20
+  - first:
+      213: 3701939448340296389
+    second: chef - walk_21
+  - first:
+      213: -3186973571629832948
+    second: chef - walk_22
+  - first:
+      213: -7324481551224801894
+    second: chef - walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chef - walk_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47972d4d44a49d820800000000000000
+      internalID: 2943465490952124788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd74bc59a1547650800000000000000
+      internalID: 6229693972406894011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 192
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788b68cabbe452e70800000000000000
+      internalID: 9089757990877575303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af15188733d806db0800000000000000
+      internalID: -4800681950572359174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0700d3c1efbe63180800000000000000
+      internalID: -9135855317446492048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2954ad915ee435d90800000000000000
+      internalID: -7110252640799668846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dc58d5afa91f420800000000000000
+      internalID: 2662079254854225238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 192
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debeccc124843d50800000000000000
+      internalID: 6716138225021140694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 112
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24468d5c00a550960800000000000000
+      internalID: 7567553708231779394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 112
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79839ca45c16cb4f0800000000000000
+      internalID: -811666332842379113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 112
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e123b5b7ed51880800000000000000
+      internalID: -8640755688648073691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 112
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c3f224859a79790800000000000000
+      internalID: -7523358455966516084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 112
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd82bf87bfaad60b0800000000000000
+      internalID: -5733738753529534244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 112
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7193eeebc57c6b0800000000000000
+      internalID: -5276146463330986043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 112
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de38352bf1107ea60800000000000000
+      internalID: 7703126923287954413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 112
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d9170c4249c1ba0800000000000000
+      internalID: -6116851308307571307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a2cb178b9532f40800000000000000
+      internalID: 5702500201898191481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90267b83508b01e0800000000000000
+      internalID: -2230548094121533285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 32
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c94822594f7d420800000000000000
+      internalID: 2654859426724617359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b41478257b72010800000000000000
+      internalID: 1164100593782967178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 32
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5d9fb56a6fa070800000000000000
+      internalID: 8119825638411296280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c23456805eef5330800000000000000
+      internalID: 3701939448340296389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_22
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 32
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0522720c6895c3d0800000000000000
+      internalID: -3186973571629832948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - walk_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95f75ff5d63a5a90800000000000000
+      internalID: -7324481551224801894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chef - walk_0: 2943465490952124788
+      chef - walk_1: 6229693972406894011
+      chef - walk_10: -8640755688648073691
+      chef - walk_11: -7523358455966516084
+      chef - walk_12: -5733738753529534244
+      chef - walk_13: -5276146463330986043
+      chef - walk_14: 7703126923287954413
+      chef - walk_15: -6116851308307571307
+      chef - walk_16: 5702500201898191481
+      chef - walk_17: -2230548094121533285
+      chef - walk_18: 2654859426724617359
+      chef - walk_19: 1164100593782967178
+      chef - walk_2: 9089757990877575303
+      chef - walk_20: 8119825638411296280
+      chef - walk_21: 3701939448340296389
+      chef - walk_22: -3186973571629832948
+      chef - walk_23: -7324481551224801894
+      chef - walk_3: -4800681950572359174
+      chef - walk_4: -9135855317446492048
+      chef - walk_5: -7110252640799668846
+      chef - walk_6: 2662079254854225238
+      chef - walk_7: 6716138225021140694
+      chef - walk_8: 7567553708231779394
+      chef - walk_9: -811666332842379113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

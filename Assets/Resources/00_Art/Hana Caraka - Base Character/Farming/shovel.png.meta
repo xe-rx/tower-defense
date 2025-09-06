@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: f3554ddef488201869a3e49f3ff54d20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3766519690804746565
+    second: shovel_0
+  - first:
+      213: 1561744515682506265
+    second: shovel_1
+  - first:
+      213: 5609685118542978755
+    second: shovel_2
+  - first:
+      213: 431514570762737072
+    second: shovel_3
+  - first:
+      213: 1416214521780635393
+    second: shovel_4
+  - first:
+      213: -47632568810815522
+    second: shovel_5
+  - first:
+      213: -951520451967887342
+    second: shovel_6
+  - first:
+      213: -1622772438737804104
+    second: shovel_7
+  - first:
+      213: 8375649141037578036
+    second: shovel_8
+  - first:
+      213: 4455328669200548445
+    second: shovel_9
+  - first:
+      213: -7399590824105110155
+    second: shovel_10
+  - first:
+      213: -1857477151912576620
+    second: shovel_11
+  - first:
+      213: -5352904928894679764
+    second: shovel_12
+  - first:
+      213: 1132871643137948314
+    second: shovel_13
+  - first:
+      213: -37813018896649984
+    second: shovel_14
+  - first:
+      213: 4392109630858918481
+    second: shovel_15
+  - first:
+      213: 8067255929124862267
+    second: shovel_16
+  - first:
+      213: -2158124301365688370
+    second: shovel_17
+  - first:
+      213: 2157762624995951952
+    second: shovel_18
+  - first:
+      213: -4921938845589908000
+    second: shovel_19
+  - first:
+      213: 2745828106538793711
+    second: shovel_20
+  - first:
+      213: 8778259873681114256
+    second: shovel_21
+  - first:
+      213: -4061004556093875214
+    second: shovel_22
+  - first:
+      213: -248926475175412382
+    second: shovel_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shovel_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6a11e0c42aabbc0800000000000000
+      internalID: -3766519690804746565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9169b2fcc5e6ca510800000000000000
+      internalID: 1561744515682506265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 191
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce9c88d4ea99dd40800000000000000
+      internalID: 5609685118542978755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 191
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5d7b1473c0df500800000000000000
+      internalID: 431514570762737072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 191
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1070c78aa9767a310800000000000000
+      internalID: 1416214521780635393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 192
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfba485e66c65ff0800000000000000
+      internalID: -47632568810815522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 192
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2185fe7b0358bc2f0800000000000000
+      internalID: -951520451967887342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_7
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 192
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b42db59011ca79e0800000000000000
+      internalID: -1622772438737804104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 107
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437b9d684884c3470800000000000000
+      internalID: 8375649141037578036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52005db1d184dd30800000000000000
+      internalID: 4455328669200548445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 106
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57599f5a95f5f4990800000000000000
+      internalID: -7399590824105110155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 106
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499b8d52f5ae836e0800000000000000
+      internalID: -1857477151912576620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 106
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c258bccf359a6b5b0800000000000000
+      internalID: -5352904928894679764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 112
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ab959d1c4c8bf00800000000000000
+      internalID: 1132871643137948314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 112
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b7c87249a97ff0800000000000000
+      internalID: -37813018896649984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_15
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 112
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15afae95078e3fc30800000000000000
+      internalID: 4392109630858918481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39b6af7686a4ff60800000000000000
+      internalID: 8067255929124862267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7c5f3d16dcc02e0800000000000000
+      internalID: -2158124301365688370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0558f74dca9e1fd10800000000000000
+      internalID: 2157762624995951952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5da6e82b2c1bbb0800000000000000
+      internalID: -4921938845589908000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea37886d142b1620800000000000000
+      internalID: 2745828106538793711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 31
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09404dc88d4a2d970800000000000000
+      internalID: 8778259873681114256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 31
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb18c25fd964a7c0800000000000000
+      internalID: -4061004556093875214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shovel_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 31
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dbaff80b2ab8cf0800000000000000
+      internalID: -248926475175412382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shovel_0: -3766519690804746565
+      shovel_1: 1561744515682506265
+      shovel_10: -7399590824105110155
+      shovel_11: -1857477151912576620
+      shovel_12: -5352904928894679764
+      shovel_13: 1132871643137948314
+      shovel_14: -37813018896649984
+      shovel_15: 4392109630858918481
+      shovel_16: 8067255929124862267
+      shovel_17: -2158124301365688370
+      shovel_18: 2157762624995951952
+      shovel_19: -4921938845589908000
+      shovel_2: 5609685118542978755
+      shovel_20: 2745828106538793711
+      shovel_21: 8778259873681114256
+      shovel_22: -4061004556093875214
+      shovel_23: -248926475175412382
+      shovel_3: 431514570762737072
+      shovel_4: 1416214521780635393
+      shovel_5: -47632568810815522
+      shovel_6: -951520451967887342
+      shovel_7: -1622772438737804104
+      shovel_8: 8375649141037578036
+      shovel_9: 4455328669200548445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

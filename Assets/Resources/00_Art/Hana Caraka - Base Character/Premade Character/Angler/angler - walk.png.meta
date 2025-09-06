@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 429bd31072461a33c9c93f7d5c18f77a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 87301522173619441
+    second: angler - walk_0
+  - first:
+      213: -4962408419390730600
+    second: angler - walk_1
+  - first:
+      213: 6930855002713752146
+    second: angler - walk_2
+  - first:
+      213: -1240276771598988893
+    second: angler - walk_3
+  - first:
+      213: 5329702708672168759
+    second: angler - walk_4
+  - first:
+      213: 6589828617195061786
+    second: angler - walk_5
+  - first:
+      213: -1942682723893936804
+    second: angler - walk_6
+  - first:
+      213: -4569350103946682411
+    second: angler - walk_7
+  - first:
+      213: 7223168398107779708
+    second: angler - walk_8
+  - first:
+      213: -4125732185740326722
+    second: angler - walk_9
+  - first:
+      213: -1788930468735576298
+    second: angler - walk_10
+  - first:
+      213: -4303202534418434260
+    second: angler - walk_11
+  - first:
+      213: 6313112528562739376
+    second: angler - walk_12
+  - first:
+      213: 8260417942993573537
+    second: angler - walk_13
+  - first:
+      213: -2806566233094575445
+    second: angler - walk_14
+  - first:
+      213: 1244903766974762549
+    second: angler - walk_15
+  - first:
+      213: -2670513984576689953
+    second: angler - walk_16
+  - first:
+      213: 4268500761597336490
+    second: angler - walk_17
+  - first:
+      213: -3215539076071220760
+    second: angler - walk_18
+  - first:
+      213: -1662554455498929702
+    second: angler - walk_19
+  - first:
+      213: -5851554427489213207
+    second: angler - walk_20
+  - first:
+      213: 1263650593366125376
+    second: angler - walk_21
+  - first:
+      213: -860480385152088616
+    second: angler - walk_22
+  - first:
+      213: -1500285545298250426
+    second: angler - walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angler - walk_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc62899548263100800000000000000
+      internalID: 87301522173619441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 192
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ecec3a5dbf12bb0800000000000000
+      internalID: -4962408419390730600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2520e7a57e75f2060800000000000000
+      internalID: 6930855002713752146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 192
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a98ca5f8d6a9cee0800000000000000
+      internalID: -1240276771598988893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73387d42068e6f940800000000000000
+      internalID: 5329702708672168759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 192
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a128d928636c37b50800000000000000
+      internalID: 6589828617195061786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 192
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d730bfa543a05e0800000000000000
+      internalID: -1942682723893936804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_7
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df1dd73a486690c0800000000000000
+      internalID: -4569350103946682411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 112
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72aa0a5369dd3460800000000000000
+      internalID: 7223168398107779708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb84d86af647eb6c0800000000000000
+      internalID: -4125732185740326722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617942387317c27e0800000000000000
+      internalID: -1788930468735576298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 112
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27bd632814f744c0800000000000000
+      internalID: -4303202534418434260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 112
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8dc0c756eac9750800000000000000
+      internalID: 6313112528562739376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a615648a56e2a270800000000000000
+      internalID: 8260417942993573537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_14
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaaacd71e21d09d0800000000000000
+      internalID: -2806566233094575445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_15
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 112
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e831a5169c64110800000000000000
+      internalID: 1244903766974762549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8e7951ead60fad0800000000000000
+      internalID: -2670513984576689953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 32
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab5e72c3d2cc3b30800000000000000
+      internalID: 4268500761597336490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 32
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e913693f3c1063d0800000000000000
+      internalID: -3215539076071220760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 32
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad94e34088b6de8e0800000000000000
+      internalID: -1662554455498929702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 32
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e424a5404a1bcea0800000000000000
+      internalID: -5851554427489213207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_21
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 32
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bacc10583698110800000000000000
+      internalID: 1263650593366125376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_22
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 32
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d581d216a5fe04f0800000000000000
+      internalID: -860480385152088616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angler - walk_23
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 32
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64538d2de3aed2be0800000000000000
+      internalID: -1500285545298250426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      angler - walk_0: 87301522173619441
+      angler - walk_1: -4962408419390730600
+      angler - walk_10: -1788930468735576298
+      angler - walk_11: -4303202534418434260
+      angler - walk_12: 6313112528562739376
+      angler - walk_13: 8260417942993573537
+      angler - walk_14: -2806566233094575445
+      angler - walk_15: 1244903766974762549
+      angler - walk_16: -2670513984576689953
+      angler - walk_17: 4268500761597336490
+      angler - walk_18: -3215539076071220760
+      angler - walk_19: -1662554455498929702
+      angler - walk_2: 6930855002713752146
+      angler - walk_20: -5851554427489213207
+      angler - walk_21: 1263650593366125376
+      angler - walk_22: -860480385152088616
+      angler - walk_23: -1500285545298250426
+      angler - walk_3: -1240276771598988893
+      angler - walk_4: 5329702708672168759
+      angler - walk_5: 6589828617195061786
+      angler - walk_6: -1942682723893936804
+      angler - walk_7: -4569350103946682411
+      angler - walk_8: 7223168398107779708
+      angler - walk_9: -4125732185740326722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

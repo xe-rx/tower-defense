@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: d855ed5513e8f3f05bb9bf3be0e07846
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6485104437720407407
+    second: inn keeper - pick up_0
+  - first:
+      213: -6579913650315230689
+    second: inn keeper - pick up_1
+  - first:
+      213: 7806816584763935103
+    second: inn keeper - pick up_2
+  - first:
+      213: 7659447319961772767
+    second: inn keeper - pick up_3
+  - first:
+      213: -941555888777157496
+    second: inn keeper - pick up_4
+  - first:
+      213: -9069796397733946191
+    second: inn keeper - pick up_5
+  - first:
+      213: -6911785944133028792
+    second: inn keeper - pick up_6
+  - first:
+      213: -3450691842906703609
+    second: inn keeper - pick up_7
+  - first:
+      213: -5726356261621874644
+    second: inn keeper - pick up_8
+  - first:
+      213: -2272982613597041470
+    second: inn keeper - pick up_9
+  - first:
+      213: 4442665166056837029
+    second: inn keeper - pick up_10
+  - first:
+      213: -8840321357222662087
+    second: inn keeper - pick up_11
+  - first:
+      213: -3196289170914863342
+    second: inn keeper - pick up_12
+  - first:
+      213: 9187569824507246988
+    second: inn keeper - pick up_13
+  - first:
+      213: -1679075283820539419
+    second: inn keeper - pick up_14
+  - first:
+      213: -8694835943280799946
+    second: inn keeper - pick up_15
+  - first:
+      213: -4502608634199185345
+    second: inn keeper - pick up_16
+  - first:
+      213: 1176595555066342204
+    second: inn keeper - pick up_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inn keeper - pick up_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d52a56028bff950800000000000000
+      internalID: 6485104437720407407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12873c95637fa4a0800000000000000
+      internalID: -6579913650315230689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 192
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f798b715252675c60800000000000000
+      internalID: 7806816584763935103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 192
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2a32a81c2db4a60800000000000000
+      internalID: 7659447319961772767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884a24168ebeee2f0800000000000000
+      internalID: -941555888777157496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 192
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc53f7ea3c912280800000000000000
+      internalID: -9069796397733946191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844b964dd476410a0800000000000000
+      internalID: -6911785944133028792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 110
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709353a2d0eac10d0800000000000000
+      internalID: -3450691842906703609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 112
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20c1b0d155e780b0800000000000000
+      internalID: -5726356261621874644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 112
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccc8ef0b5eb470e0800000000000000
+      internalID: -2272982613597041470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 112
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afc1d62e6487ad30800000000000000
+      internalID: 4442665166056837029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930b17a409ed05580800000000000000
+      internalID: -8840321357222662087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21711380fef74a3d0800000000000000
+      internalID: -3196289170914863342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c893adad31ec08f70800000000000000
+      internalID: 9187569824507246988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e11dbcece9b2b8e0800000000000000
+      internalID: -1679075283820539419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 31
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f037cd6ccb55780800000000000000
+      internalID: -8694835943280799946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 32
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3863f39d458381c0800000000000000
+      internalID: -4502608634199185345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inn keeper - pick up_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 32
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b68086c6b145010800000000000000
+      internalID: 1176595555066342204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inn keeper - pick up_0: 6485104437720407407
+      inn keeper - pick up_1: -6579913650315230689
+      inn keeper - pick up_10: 4442665166056837029
+      inn keeper - pick up_11: -8840321357222662087
+      inn keeper - pick up_12: -3196289170914863342
+      inn keeper - pick up_13: 9187569824507246988
+      inn keeper - pick up_14: -1679075283820539419
+      inn keeper - pick up_15: -8694835943280799946
+      inn keeper - pick up_16: -4502608634199185345
+      inn keeper - pick up_17: 1176595555066342204
+      inn keeper - pick up_2: 7806816584763935103
+      inn keeper - pick up_3: 7659447319961772767
+      inn keeper - pick up_4: -941555888777157496
+      inn keeper - pick up_5: -9069796397733946191
+      inn keeper - pick up_6: -6911785944133028792
+      inn keeper - pick up_7: -3450691842906703609
+      inn keeper - pick up_8: -5726356261621874644
+      inn keeper - pick up_9: -2272982613597041470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

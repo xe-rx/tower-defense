@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 99c016e6b14c3209e84f05ff72745514
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3547016115579742592
+    second: chef - pick up_0
+  - first:
+      213: 6633606079272928286
+    second: chef - pick up_1
+  - first:
+      213: 3535167321834872482
+    second: chef - pick up_2
+  - first:
+      213: -3715126018820527055
+    second: chef - pick up_3
+  - first:
+      213: 6404086287761431
+    second: chef - pick up_4
+  - first:
+      213: 5667093284858354243
+    second: chef - pick up_5
+  - first:
+      213: 6362054313181331563
+    second: chef - pick up_6
+  - first:
+      213: -2727172407352272595
+    second: chef - pick up_7
+  - first:
+      213: -2816534136003476012
+    second: chef - pick up_8
+  - first:
+      213: -7783415405231462624
+    second: chef - pick up_9
+  - first:
+      213: 3032143288210192211
+    second: chef - pick up_10
+  - first:
+      213: -2230559585043870890
+    second: chef - pick up_11
+  - first:
+      213: -7738969040480051462
+    second: chef - pick up_12
+  - first:
+      213: 7111583322882384788
+    second: chef - pick up_13
+  - first:
+      213: -1999727676173691871
+    second: chef - pick up_14
+  - first:
+      213: 1295864037011014963
+    second: chef - pick up_15
+  - first:
+      213: -1537681364449973932
+    second: chef - pick up_16
+  - first:
+      213: 2558147171791183242
+    second: chef - pick up_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chef - pick up_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0869842c2a776cec0800000000000000
+      internalID: -3547016115579742592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e144fee259d4f0c50800000000000000
+      internalID: 6633606079272928286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 192
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae5987f2ff6f0130800000000000000
+      internalID: 3535167321834872482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 192
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c2468c198317cc0800000000000000
+      internalID: -3715126018820527055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7100b488b70c61000800000000000000
+      internalID: 6404086287761431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 192
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34adbf8215f85ae40800000000000000
+      internalID: 5667093284858354243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 112
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b604ae2b0be8a4850800000000000000
+      internalID: 6362054313181331563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 110
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29558a0523272ad0800000000000000
+      internalID: -2727172407352272595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 112
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d540cd3029a9e8d0800000000000000
+      internalID: -2816534136003476012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 112
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02720ef5de0cbf390800000000000000
+      internalID: -7783415405231462624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 112
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3577ad17146541a20800000000000000
+      internalID: 3032143288210192211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 112
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b0e1b10e57b01e0800000000000000
+      internalID: -2230559585043870890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed07619a8a99490800000000000000
+      internalID: -7738969040480051462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 31
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4932ff67a5b61b260800000000000000
+      internalID: 7111583322882384788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 31
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1245626064a8f34e0800000000000000
+      internalID: -1999727676173691871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 31
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335ce33d975dbf110800000000000000
+      internalID: 1295864037011014963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 32
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459a83e22fe09aae0800000000000000
+      internalID: -1537681364449973932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chef - pick up_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 32
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d98c19c4d508320800000000000000
+      internalID: 2558147171791183242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chef - pick up_0: -3547016115579742592
+      chef - pick up_1: 6633606079272928286
+      chef - pick up_10: 3032143288210192211
+      chef - pick up_11: -2230559585043870890
+      chef - pick up_12: -7738969040480051462
+      chef - pick up_13: 7111583322882384788
+      chef - pick up_14: -1999727676173691871
+      chef - pick up_15: 1295864037011014963
+      chef - pick up_16: -1537681364449973932
+      chef - pick up_17: 2558147171791183242
+      chef - pick up_2: 3535167321834872482
+      chef - pick up_3: -3715126018820527055
+      chef - pick up_4: 6404086287761431
+      chef - pick up_5: 5667093284858354243
+      chef - pick up_6: 6362054313181331563
+      chef - pick up_7: -2727172407352272595
+      chef - pick up_8: -2816534136003476012
+      chef - pick up_9: -7783415405231462624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
