@@ -1,10 +1,10 @@
 {
   "version": 1,
   "enemyCatalog": [
-    { "id": "rat", "prefab": "05_Prefabs/Rat", "threatCost": 1 },
-    { "id": "bat", "prefab": "05_Prefabs/Bat", "threatCost": 3 },
-    { "id": "slime", "prefab": "05_Prefabs/Slime", "threatCost": 5 },
-    { "id": "elf", "prefab": "05_Prefabs/Elf", "threatCost": 12 }
+    { "id": "rat", "prefab": "05_Prefabs/EnemyPrefabs/Rat", "threatCost": 1 },
+    { "id": "bat", "prefab": "05_Prefabs/EnemyPrefabs/Bat", "threatCost": 3 },
+    { "id": "slime", "prefab": "05_Prefabs/EnemyPrefabs/Slime", "threatCost": 5 },
+    { "id": "elf", "prefab": "05_Prefabs/EnemyPrefabs/Elf", "threatCost": 12 }
   ],
   "preDeterminedWaves": 25,
   "waves": [
