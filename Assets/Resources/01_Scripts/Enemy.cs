@@ -41,9 +41,13 @@ public class Enemy : MonoBehaviour
       index++;
       if (index >= EnemyManager.main.checkpoints.Length)
       {
-        Destroy(gameObject);
-        EnemyTracker.AliveCount--;
+        KillEnemy();
       }
+    }
+
+    if(hitpoints <= 0)
+    {
+      KillEnemy();
     }
   }
 
@@ -67,5 +71,17 @@ public class Enemy : MonoBehaviour
     {
       animator.Play("EnemyRight");
     }
+  }
+
+  public void DamageEnemy(int dmg)
+  {
+    hitpoints -= dmg;
+  }
+
+  public void KillEnemy()
+  {
+    Destroy(gameObject);
+    EnemyTracker.AliveCount--;
+    // handle death animation, make sure tower does not target dead
   }
 }
