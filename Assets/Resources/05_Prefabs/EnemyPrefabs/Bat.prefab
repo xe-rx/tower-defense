@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 1.6
-  hitpoints: 3
+  hitpoints: 5
   value: 3
   damage: 5
 --- !u!95 &352041466098036204

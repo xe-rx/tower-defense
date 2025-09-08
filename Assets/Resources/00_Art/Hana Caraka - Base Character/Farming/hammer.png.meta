@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,10 +149,10 @@ TextureImporter:
       name: hammer_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 191
-        width: 22
-        height: 17
+        x: 0
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: hammer_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 192
-        width: 23
-        height: 20
+        x: 48
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: hammer_2
       rect:
         serializedVersion: 2
-        x: 186
-        y: 192
-        width: 29
-        height: 22
+        x: 96
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: hammer_3
       rect:
         serializedVersion: 2
-        x: 274
-        y: 191
-        width: 26
-        height: 17
+        x: 144
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: hammer_4
       rect:
         serializedVersion: 2
-        x: 354
-        y: 191
-        width: 27
-        height: 16
+        x: 192
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: hammer_5
       rect:
         serializedVersion: 2
-        x: 433
-        y: 191
-        width: 29
-        height: 16
+        x: 240
+        y: 208
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: hammer_6
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 144
-        width: 14
-        height: 16
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +303,10 @@ TextureImporter:
       name: hammer_7
       rect:
         serializedVersion: 2
-        x: 38
-        y: 29
-        width: 406
-        height: 137
+        x: 96
+        y: 144
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: hammer_8
       rect:
         serializedVersion: 2
-        x: 111
+        x: 192
         y: 144
-        width: 13
-        height: 16
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: hammer_9
       rect:
         serializedVersion: 2
-        x: 194
-        y: 143
-        width: 24
-        height: 16
+        x: 240
+        y: 144
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +369,10 @@ TextureImporter:
       name: hammer_10
       rect:
         serializedVersion: 2
-        x: 274
-        y: 143
-        width: 14
-        height: 16
+        x: 288
+        y: 144
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: hammer_11
       rect:
         serializedVersion: 2
-        x: 291
-        y: 150
-        width: 9
-        height: 10
+        x: 336
+        y: 144
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,11 +409,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: hammer_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db1904cf7bedabfa310ab8a4d01feb
+      internalID: -700346673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 32590fe413a943749872ccd51cb5b102
     internalID: 0
     vertices: []
     indices: 
@@ -421,12 +443,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       hammer_0: 4301844918096825189
       hammer_1: -6030043224269349317
       hammer_10: -534786374937900092
       hammer_11: 4482013812231433375
+      hammer_12: -700346673
       hammer_2: -8258728375015105676
       hammer_3: -1159298483449069950
       hammer_4: 1784401183296663280

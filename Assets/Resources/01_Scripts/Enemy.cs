@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
       }
     }
 
-    if(hitpoints <= 0)
+    if (hitpoints <= 0)
     {
       KillEnemy();
     }
@@ -55,6 +55,9 @@ public class Enemy : MonoBehaviour
   {
     Vector2 direction = (checkpoint.position - transform.position).normalized;
     rb.linearVelocity = direction * movespeed;
+
+    var st = animator.GetCurrentAnimatorStateInfo(0);
+    if (st.IsName("EnemyHit")) return;
 
     // Shitty way of handling animation for the time being
     if (direction.x > 0.1f)
@@ -76,6 +79,7 @@ public class Enemy : MonoBehaviour
   public void DamageEnemy(int dmg)
   {
     hitpoints -= dmg;
+    animator.Play("EnemyHit");
   }
 
   public void KillEnemy()
