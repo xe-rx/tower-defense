@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 2142a9523f7aecea4b89c7fa7dbd70f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7359491899343901801
+    second: builderbar_0
+  - first:
+      213: 4489197686198500023
+    second: builderbar_1
+  - first:
+      213: -2213688743546227644
+    second: builderbar_2
+  - first:
+      213: -1844568957543803941
+    second: builderbar_3
+  - first:
+      213: 2206928198838663796
+    second: builderbar_4
+  - first:
+      213: 867144280902703683
+    second: builderbar_5
+  - first:
+      213: 5748245091094261526
+    second: builderbar_6
+  - first:
+      213: 1181971534029751752
+    second: builderbar_7
+  - first:
+      213: 4219329150141611367
+    second: builderbar_8
+  - first:
+      213: -1350225518383410100
+    second: builderbar_9
+  - first:
+      213: 6349506765225123004
+    second: builderbar_10
+  - first:
+      213: -9112553821594665874
+    second: builderbar_11
+  - first:
+      213: -334762112660290
+    second: builderbar_12
+  - first:
+      213: -79237104275718349
+    second: builderbar_13
+  - first:
+      213: -1927924689157625166
+    second: builderbar_14
+  - first:
+      213: -1250293369173151885
+    second: builderbar_15
+  - first:
+      213: -6912294291850878931
+    second: builderbar_16
+  - first:
+      213: 4996777154210312986
+    second: builderbar_17
+  - first:
+      213: 2041183463147925850
+    second: builderbar_18
+  - first:
+      213: 4042923902951551102
+    second: builderbar_19
+  - first:
+      213: 8039754766775459705
+    second: builderbar_20
+  - first:
+      213: -3195788607809833487
+    second: builderbar_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: builderbar_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96412c3e3ea222660800000000000000
+      internalID: 7359491899343901801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bafd54c285dc4e30800000000000000
+      internalID: 4489197686198500023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44475adf0d56741e0800000000000000
+      internalID: -2213688743546227644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd393e95e46c666e0800000000000000
+      internalID: -1844568957543803941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a3298018590ae10800000000000000
+      internalID: 2206928198838663796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a97301127b80c00800000000000000
+      internalID: 867144280902703683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f6e80747ed5cf40800000000000000
+      internalID: 5748245091094261526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_7
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5877c09d4376010800000000000000
+      internalID: 1181971534029751752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d34a0d1811e8a30800000000000000
+      internalID: 4219329150141611367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44d61a7b09034de0800000000000000
+      internalID: -1350225518383410100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 20
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcde2803cafd1850800000000000000
+      internalID: 6349506765225123004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cb8336494b98180800000000000000
+      internalID: -9112553821594665874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcc03f198fcefff0800000000000000
+      internalID: -334762112660290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7d92064e76eef0800000000000000
+      internalID: -79237104275718349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baed05b5b2ae35e0800000000000000
+      internalID: -1927924689157625166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f68691ec016aee0800000000000000
+      internalID: -1250293369173151885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20a447e6f89210a0800000000000000
+      internalID: -6912294291850878931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a133e72095e185540800000000000000
+      internalID: 4996777154210312986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51755a8b8db35c10800000000000000
+      internalID: 2041183463147925850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70fc519ed95b1830800000000000000
+      internalID: 4042923902951551102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f97ea2d52f29f60800000000000000
+      internalID: 8039754766775459705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: builderbar_21
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f53146713746a3d0800000000000000
+      internalID: -3195788607809833487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      builderbar_0: 7359491899343901801
+      builderbar_1: 4489197686198500023
+      builderbar_10: 6349506765225123004
+      builderbar_11: -9112553821594665874
+      builderbar_12: -334762112660290
+      builderbar_13: -79237104275718349
+      builderbar_14: -1927924689157625166
+      builderbar_15: -1250293369173151885
+      builderbar_16: -6912294291850878931
+      builderbar_17: 4996777154210312986
+      builderbar_18: 2041183463147925850
+      builderbar_19: 4042923902951551102
+      builderbar_2: -2213688743546227644
+      builderbar_20: 8039754766775459705
+      builderbar_21: -3195788607809833487
+      builderbar_3: -1844568957543803941
+      builderbar_4: 2206928198838663796
+      builderbar_5: 867144280902703683
+      builderbar_6: 5748245091094261526
+      builderbar_7: 1181971534029751752
+      builderbar_8: 4219329150141611367
+      builderbar_9: -1350225518383410100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

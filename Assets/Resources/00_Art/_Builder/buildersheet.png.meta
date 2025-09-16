@@ -1,100 +1,100 @@
 fileFormatVersion: 2
-guid: 570d3ec3f7eb9fe36ab17ac9ed0bf6af
+guid: 194d94bf435036024b6879b62b13f7a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4301844918096825189
-    second: hammer_0
+      213: 4425028387389404887
+    second: buildersheet_0
   - first:
-      213: -6030043224269349317
-    second: hammer_1
+      213: 5868876800720523498
+    second: buildersheet_1
   - first:
-      213: -8258728375015105676
-    second: hammer_2
+      213: 1541267054563413110
+    second: buildersheet_2
   - first:
-      213: -1159298483449069950
-    second: hammer_3
+      213: 2339309429343531836
+    second: buildersheet_3
   - first:
-      213: 1784401183296663280
-    second: hammer_4
+      213: -2089527721751204073
+    second: buildersheet_4
   - first:
-      213: 1632725881280823895
-    second: hammer_5
+      213: 6063023732815243125
+    second: buildersheet_5
   - first:
-      213: 393260495992152720
-    second: hammer_6
+      213: 1480881737181311158
+    second: buildersheet_6
   - first:
-      213: -3640931303203937128
-    second: hammer_7
+      213: -6224533902120781856
+    second: buildersheet_7
   - first:
-      213: -8705565869883891278
-    second: hammer_8
+      213: -2720535023336338634
+    second: buildersheet_8
   - first:
-      213: 8926881477360062686
-    second: hammer_9
+      213: 775085203017933479
+    second: buildersheet_9
   - first:
-      213: -534786374937900092
-    second: hammer_10
+      213: 2803906829330934129
+    second: buildersheet_10
   - first:
-      213: 4482013812231433375
-    second: hammer_11
+      213: 6883882515934417287
+    second: buildersheet_11
   - first:
-      213: 5828879757645499619
-    second: hammer_12
+      213: -5998250476959951458
+    second: buildersheet_12
   - first:
-      213: 8193595170819662410
-    second: hammer_13
+      213: -1436806441604658259
+    second: buildersheet_13
   - first:
-      213: -4861325127886710163
-    second: hammer_14
+      213: 6959714372755504927
+    second: buildersheet_14
   - first:
-      213: 3792571915530056257
-    second: hammer_15
+      213: -8263836228952528128
+    second: buildersheet_15
   - first:
-      213: -8513103162584473425
-    second: hammer_16
+      213: -3008977123047383673
+    second: buildersheet_16
   - first:
-      213: 6719641860199963690
-    second: hammer_17
+      213: -4796941009483416941
+    second: buildersheet_17
   - first:
-      213: -3370679024140313256
-    second: hammer_18
+      213: 2785663082975812775
+    second: buildersheet_18
   - first:
-      213: -4331098000531199671
-    second: hammer_19
+      213: -3273616391760665328
+    second: buildersheet_19
   - first:
-      213: 7893869484515573170
-    second: hammer_20
+      213: -788523471904334852
+    second: buildersheet_20
   - first:
-      213: -7072256234765588052
-    second: hammer_21
+      213: -6702014488190732663
+    second: buildersheet_21
   - first:
-      213: 7481481524664423878
-    second: hammer_22
+      213: -9196253533475781704
+    second: buildersheet_22
   - first:
-      213: 1288512676092964861
-    second: hammer_23
+      213: -3582299581325265266
+    second: buildersheet_23
   - first:
-      213: 6409724009022252772
-    second: hammer_24
+      213: -643322223308232920
+    second: buildersheet_24
   - first:
-      213: -457022392493176604
-    second: hammer_25
+      213: 1868506218164750949
+    second: buildersheet_25
   - first:
-      213: 6799394740245925410
-    second: hammer_26
+      213: 7815185795123699440
+    second: buildersheet_26
   - first:
-      213: 5024843805982009822
-    second: hammer_27
+      213: -1145209175423742020
+    second: buildersheet_27
   - first:
-      213: 4594052159879894319
-    second: hammer_28
+      213: -7957944341272707359
+    second: buildersheet_28
   - first:
-      213: 5026638128404016518
-    second: hammer_29
+      213: 8771661837335545366
+    second: buildersheet_29
   - first:
-      213: -1257515635823417256
-    second: hammer_30
+      213: -3049728277219306300
+    second: buildersheet_30
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -203,11 +203,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hammer_0
+      name: buildersheet_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 247
+        y: 207
         width: 24
         height: 19
       alignment: 0
@@ -218,18 +218,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56b0bfd292933bb30800000000000000
-      internalID: 4301844918096825189
+      spriteID: 7d67d5f9fdbd86d30800000000000000
+      internalID: 4425028387389404887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_1
+      name: buildersheet_1
       rect:
         serializedVersion: 2
         x: 52
-        y: 248
+        y: 208
         width: 25
         height: 22
       alignment: 0
@@ -240,18 +240,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3e9c25d2abf05ca0800000000000000
-      internalID: -6030043224269349317
+      spriteID: ae05a790b50727150800000000000000
+      internalID: 5868876800720523498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_2
+      name: buildersheet_2
       rect:
         serializedVersion: 2
         x: 104
-        y: 248
+        y: 208
         width: 31
         height: 24
       alignment: 0
@@ -262,18 +262,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47b19ceac4a136d80800000000000000
-      internalID: -8258728375015105676
+      spriteID: 67cc34b583ea36510800000000000000
+      internalID: 1541267054563413110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_3
+      name: buildersheet_3
       rect:
         serializedVersion: 2
         x: 160
-        y: 247
+        y: 207
         width: 28
         height: 19
       alignment: 0
@@ -284,18 +284,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28e7e59eb2859efe0800000000000000
-      internalID: -1159298483449069950
+      spriteID: c333eb32885e67020800000000000000
+      internalID: 2339309429343531836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_4
+      name: buildersheet_4
       rect:
         serializedVersion: 2
         x: 208
-        y: 247
+        y: 207
         width: 29
         height: 18
       alignment: 0
@@ -306,18 +306,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fe2f2b0c6773c810800000000000000
-      internalID: 1784401183296663280
+      spriteID: 71f20bc9b918003e0800000000000000
+      internalID: -2089527721751204073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_5
+      name: buildersheet_5
       rect:
         serializedVersion: 2
         x: 256
-        y: 247
+        y: 207
         width: 31
         height: 18
       alignment: 0
@@ -328,18 +328,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7528459d98b98a610800000000000000
-      internalID: 1632725881280823895
+      spriteID: 577273336ff242450800000000000000
+      internalID: 6063023732815243125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_6
+      name: buildersheet_6
       rect:
         serializedVersion: 2
         x: 16
-        y: 199
+        y: 159
         width: 16
         height: 18
       alignment: 0
@@ -350,18 +350,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0926ec76654257500800000000000000
-      internalID: 393260495992152720
+      spriteID: 6b03e0b08162d8410800000000000000
+      internalID: 1480881737181311158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_7
+      name: buildersheet_7
       rect:
         serializedVersion: 2
         x: 64
-        y: 199
+        y: 159
         width: 15
         height: 18
       alignment: 0
@@ -372,18 +372,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 894edec2540d87dc0800000000000000
-      internalID: -3640931303203937128
+      spriteID: 0e7f6bf15630e99a0800000000000000
+      internalID: -6224533902120781856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_8
+      name: buildersheet_8
       rect:
         serializedVersion: 2
         x: 113
-        y: 198
+        y: 158
         width: 26
         height: 18
       alignment: 0
@@ -394,18 +394,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b16ec427fd9f2780800000000000000
-      internalID: -8705565869883891278
+      spriteID: 63b470f6fc7be3ad0800000000000000
+      internalID: -2720535023336338634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_9
+      name: buildersheet_9
       rect:
         serializedVersion: 2
         x: 160
-        y: 198
+        y: 158
         width: 16
         height: 18
       alignment: 0
@@ -416,18 +416,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed09f023867a2eb70800000000000000
-      internalID: 8926881477360062686
+      spriteID: 7a2ab84b2e7a1ca00800000000000000
+      internalID: 775085203017933479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_10
+      name: buildersheet_10
       rect:
         serializedVersion: 2
         x: 177
-        y: 205
+        y: 165
         width: 11
         height: 12
       alignment: 0
@@ -438,18 +438,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cb8b1b10ae0498f0800000000000000
-      internalID: -534786374937900092
+      spriteID: 179ef81d76a79e620800000000000000
+      internalID: 2803906829330934129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_11
+      name: buildersheet_11
       rect:
         serializedVersion: 2
         x: 208
-        y: 199
+        y: 159
         width: 16
         height: 18
       alignment: 0
@@ -460,18 +460,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9ce274c0df433e30800000000000000
-      internalID: 4482013812231433375
+      spriteID: 7811bc50da6788f50800000000000000
+      internalID: 6883882515934417287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_12
+      name: buildersheet_12
       rect:
         serializedVersion: 2
         x: 227
-        y: 213
+        y: 173
         width: 9
         height: 10
       alignment: 0
@@ -482,18 +482,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eccce0c14754e050800000000000000
-      internalID: 5828879757645499619
+      spriteID: e951cf6a8fee1cca0800000000000000
+      internalID: -5998250476959951458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_13
+      name: buildersheet_13
       rect:
         serializedVersion: 2
         x: 15
-        y: 167
+        y: 127
         width: 17
         height: 18
       alignment: 0
@@ -504,18 +504,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a42ef06756f75b170800000000000000
-      internalID: 8193595170819662410
+      spriteID: dab492567207f0ce0800000000000000
+      internalID: -1436806441604658259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_14
+      name: buildersheet_14
       rect:
         serializedVersion: 2
         x: 62
-        y: 168
+        y: 128
         width: 19
         height: 18
       alignment: 0
@@ -526,18 +526,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6ad1a67d8a198cb0800000000000000
-      internalID: -4861325127886710163
+      spriteID: f1fb54e095fd59060800000000000000
+      internalID: 6959714372755504927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_15
+      name: buildersheet_15
       rect:
         serializedVersion: 2
         x: 111
-        y: 167
+        y: 127
         width: 17
         height: 18
       alignment: 0
@@ -548,18 +548,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 142ba42301ce1a430800000000000000
-      internalID: 3792571915530056257
+      spriteID: 00be743cbb4f05d80800000000000000
+      internalID: -8263836228952528128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_16
+      name: buildersheet_16
       rect:
         serializedVersion: 2
         x: 160
-        y: 167
+        y: 127
         width: 15
         height: 17
       alignment: 0
@@ -570,18 +570,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa0e5e927c16bd980800000000000000
-      internalID: -8513103162584473425
+      spriteID: 78ddb73bf37fd36d0800000000000000
+      internalID: -3008977123047383673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_17
+      name: buildersheet_17
       rect:
         serializedVersion: 2
         x: 207
-        y: 167
+        y: 127
         width: 15
         height: 18
       alignment: 0
@@ -592,18 +592,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2c501f6ba6f04d50800000000000000
-      internalID: 6719641860199963690
+      spriteID: 39abc313197dd6db0800000000000000
+      internalID: -4796941009483416941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_18
+      name: buildersheet_18
       rect:
         serializedVersion: 2
         x: 255
-        y: 168
+        y: 128
         width: 15
         height: 18
       alignment: 0
@@ -614,18 +614,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85d91424941f831d0800000000000000
-      internalID: -3370679024140313256
+      spriteID: 7ac51bc90d9a8a620800000000000000
+      internalID: 2785663082975812775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_19
+      name: buildersheet_19
       rect:
         serializedVersion: 2
         x: 15
-        y: 119
+        y: 79
         width: 17
         height: 18
       alignment: 0
@@ -636,18 +636,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 949eeeec059d4e3c0800000000000000
-      internalID: -4331098000531199671
+      spriteID: 015a53e6c37c192d0800000000000000
+      internalID: -3273616391760665328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_20
+      name: buildersheet_20
       rect:
         serializedVersion: 2
         x: 63
-        y: 120
+        y: 80
         width: 17
         height: 18
       alignment: 0
@@ -658,18 +658,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bdb8dff878ac8d60800000000000000
-      internalID: 7893869484515573170
+      spriteID: cfb9510841a9e05f0800000000000000
+      internalID: -788523471904334852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_21
+      name: buildersheet_21
       rect:
         serializedVersion: 2
         x: 111
-        y: 119
+        y: 79
         width: 17
         height: 18
       alignment: 0
@@ -680,18 +680,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca96146cc6c4add90800000000000000
-      internalID: -7072256234765588052
+      spriteID: 986bedfe459adf2a0800000000000000
+      internalID: -6702014488190732663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_22
+      name: buildersheet_22
       rect:
         serializedVersion: 2
         x: 159
-        y: 119
+        y: 79
         width: 17
         height: 17
       alignment: 0
@@ -702,18 +702,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c5554fdecf83d760800000000000000
-      internalID: 7481481524664423878
+      spriteID: 8b3ceb89228506080800000000000000
+      internalID: -9196253533475781704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_23
+      name: buildersheet_23
       rect:
         serializedVersion: 2
         x: 207
-        y: 119
+        y: 79
         width: 17
         height: 18
       alignment: 0
@@ -724,18 +724,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dffeb1bb377b1e110800000000000000
-      internalID: 1288512676092964861
+      spriteID: e86b318b28d194ec0800000000000000
+      internalID: -3582299581325265266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_24
+      name: buildersheet_24
       rect:
         serializedVersion: 2
         x: 255
-        y: 120
+        y: 80
         width: 17
         height: 18
       alignment: 0
@@ -746,18 +746,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e6601aa60ae3f850800000000000000
-      internalID: 6409724009022252772
+      spriteID: 827299ba8d57217f0800000000000000
+      internalID: -643322223308232920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_25
+      name: buildersheet_25
       rect:
         serializedVersion: 2
         x: 15
-        y: 71
+        y: 31
         width: 17
         height: 18
       alignment: 0
@@ -768,18 +768,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e88b013e8458a9f0800000000000000
-      internalID: -457022392493176604
+      spriteID: 56a815271844ee910800000000000000
+      internalID: 1868506218164750949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_26
+      name: buildersheet_26
       rect:
         serializedVersion: 2
         x: 63
-        y: 72
+        y: 32
         width: 17
         height: 18
       alignment: 0
@@ -790,18 +790,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22e8404dd7d4c5e50800000000000000
-      internalID: 6799394740245925410
+      spriteID: 0fed604f21e157c60800000000000000
+      internalID: 7815185795123699440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_27
+      name: buildersheet_27
       rect:
         serializedVersion: 2
         x: 111
-        y: 71
+        y: 31
         width: 17
         height: 18
       alignment: 0
@@ -812,18 +812,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed9216b91d4dbb540800000000000000
-      internalID: 5024843805982009822
+      spriteID: cbf895192566b10f0800000000000000
+      internalID: -1145209175423742020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_28
+      name: buildersheet_28
       rect:
         serializedVersion: 2
         x: 159
-        y: 71
+        y: 31
         width: 17
         height: 17
       alignment: 0
@@ -834,18 +834,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f25d14d591a51cf30800000000000000
-      internalID: 4594052159879894319
+      spriteID: 1ee3c1cd8c3bf8190800000000000000
+      internalID: -7957944341272707359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_29
+      name: buildersheet_29
       rect:
         serializedVersion: 2
         x: 207
-        y: 71
+        y: 31
         width: 17
         height: 18
       alignment: 0
@@ -856,18 +856,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68da4f9deb432c540800000000000000
-      internalID: 5026638128404016518
+      spriteID: 6164c3087f33bb970800000000000000
+      internalID: 8771661837335545366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hammer_30
+      name: buildersheet_30
       rect:
         serializedVersion: 2
         x: 255
-        y: 72
+        y: 32
         width: 17
         height: 18
       alignment: 0
@@ -878,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 858ee3b11386c8ee0800000000000000
-      internalID: -1257515635823417256
+      spriteID: 4c411ee3a403da5d0800000000000000
+      internalID: -3049728277219306300
       vertices: []
       indices: 
       edges: []
@@ -898,37 +898,37 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hammer_0: 4301844918096825189
-      hammer_1: -6030043224269349317
-      hammer_10: -534786374937900092
-      hammer_11: 4482013812231433375
-      hammer_12: 5828879757645499619
-      hammer_13: 8193595170819662410
-      hammer_14: -4861325127886710163
-      hammer_15: 3792571915530056257
-      hammer_16: -8513103162584473425
-      hammer_17: 6719641860199963690
-      hammer_18: -3370679024140313256
-      hammer_19: -4331098000531199671
-      hammer_2: -8258728375015105676
-      hammer_20: 7893869484515573170
-      hammer_21: -7072256234765588052
-      hammer_22: 7481481524664423878
-      hammer_23: 1288512676092964861
-      hammer_24: 6409724009022252772
-      hammer_25: -457022392493176604
-      hammer_26: 6799394740245925410
-      hammer_27: 5024843805982009822
-      hammer_28: 4594052159879894319
-      hammer_29: 5026638128404016518
-      hammer_3: -1159298483449069950
-      hammer_30: -1257515635823417256
-      hammer_4: 1784401183296663280
-      hammer_5: 1632725881280823895
-      hammer_6: 393260495992152720
-      hammer_7: -3640931303203937128
-      hammer_8: -8705565869883891278
-      hammer_9: 8926881477360062686
+      buildersheet_0: 4425028387389404887
+      buildersheet_1: 5868876800720523498
+      buildersheet_10: 2803906829330934129
+      buildersheet_11: 6883882515934417287
+      buildersheet_12: -5998250476959951458
+      buildersheet_13: -1436806441604658259
+      buildersheet_14: 6959714372755504927
+      buildersheet_15: -8263836228952528128
+      buildersheet_16: -3008977123047383673
+      buildersheet_17: -4796941009483416941
+      buildersheet_18: 2785663082975812775
+      buildersheet_19: -3273616391760665328
+      buildersheet_2: 1541267054563413110
+      buildersheet_20: -788523471904334852
+      buildersheet_21: -6702014488190732663
+      buildersheet_22: -9196253533475781704
+      buildersheet_23: -3582299581325265266
+      buildersheet_24: -643322223308232920
+      buildersheet_25: 1868506218164750949
+      buildersheet_26: 7815185795123699440
+      buildersheet_27: -1145209175423742020
+      buildersheet_28: -7957944341272707359
+      buildersheet_29: 8771661837335545366
+      buildersheet_3: 2339309429343531836
+      buildersheet_30: -3049728277219306300
+      buildersheet_4: -2089527721751204073
+      buildersheet_5: 6063023732815243125
+      buildersheet_6: 1480881737181311158
+      buildersheet_7: -6224533902120781856
+      buildersheet_8: -2720535023336338634
+      buildersheet_9: 775085203017933479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
