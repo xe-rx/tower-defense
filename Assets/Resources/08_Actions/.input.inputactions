@@ -1,0 +1,34 @@
+{
+    "name": "Builder",
+    "maps": [
+        {
+            "name": "Builder",
+            "id": "1f3e23a0-6155-48ad-aa11-732494b75b6e",
+            "actions": [
+                {
+                    "name": "Build",
+                    "type": "Button",
+                    "id": "a3293e59-6bd0-4941-a31c-fd392440dd32",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4fe2a9a4-c80f-4bd5-85ce-2d9151ce6f59",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Build",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

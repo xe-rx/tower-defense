@@ -127,7 +127,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,7 +164,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -206,10 +206,10 @@ TextureImporter:
       name: buildersheet_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 207
-        width: 24
-        height: 19
+        x: 0
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: buildersheet_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 208
-        width: 25
-        height: 22
+        x: 48
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: buildersheet_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 208
-        width: 31
-        height: 24
+        x: 96
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: buildersheet_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 207
-        width: 28
-        height: 19
+        x: 144
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: buildersheet_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 207
-        width: 29
-        height: 18
+        x: 192
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: buildersheet_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 207
-        width: 31
-        height: 18
+        x: 240
+        y: 248
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +338,10 @@ TextureImporter:
       name: buildersheet_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 159
-        width: 16
-        height: 18
+        x: 0
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: buildersheet_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 159
-        width: 15
-        height: 18
+        x: 48
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: buildersheet_8
       rect:
         serializedVersion: 2
-        x: 113
-        y: 158
-        width: 26
-        height: 18
+        x: 96
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: buildersheet_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 158
-        width: 16
-        height: 18
+        x: 144
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: buildersheet_10
       rect:
         serializedVersion: 2
-        x: 177
-        y: 165
-        width: 11
-        height: 12
+        x: 192
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: buildersheet_11
       rect:
         serializedVersion: 2
-        x: 208
-        y: 159
-        width: 16
-        height: 18
+        x: 240
+        y: 216
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: buildersheet_12
       rect:
         serializedVersion: 2
-        x: 227
-        y: 173
-        width: 9
-        height: 10
+        x: 0
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: buildersheet_13
       rect:
         serializedVersion: 2
-        x: 15
-        y: 127
-        width: 17
-        height: 18
+        x: 48
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: buildersheet_14
       rect:
         serializedVersion: 2
-        x: 62
-        y: 128
-        width: 19
-        height: 18
+        x: 96
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +536,10 @@ TextureImporter:
       name: buildersheet_15
       rect:
         serializedVersion: 2
-        x: 111
-        y: 127
-        width: 17
-        height: 18
+        x: 144
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +558,10 @@ TextureImporter:
       name: buildersheet_16
       rect:
         serializedVersion: 2
-        x: 160
-        y: 127
-        width: 15
-        height: 17
+        x: 192
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: buildersheet_17
       rect:
         serializedVersion: 2
-        x: 207
-        y: 127
-        width: 15
-        height: 18
+        x: 240
+        y: 184
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: buildersheet_18
       rect:
         serializedVersion: 2
-        x: 255
-        y: 128
-        width: 15
-        height: 18
+        x: 0
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: buildersheet_19
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
-        width: 17
-        height: 18
+        x: 48
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: buildersheet_20
       rect:
         serializedVersion: 2
-        x: 63
-        y: 80
-        width: 17
-        height: 18
+        x: 96
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +668,10 @@ TextureImporter:
       name: buildersheet_21
       rect:
         serializedVersion: 2
-        x: 111
-        y: 79
-        width: 17
-        height: 18
+        x: 144
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +690,10 @@ TextureImporter:
       name: buildersheet_22
       rect:
         serializedVersion: 2
-        x: 159
-        y: 79
-        width: 17
-        height: 17
+        x: 192
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +712,10 @@ TextureImporter:
       name: buildersheet_23
       rect:
         serializedVersion: 2
-        x: 207
-        y: 79
-        width: 17
-        height: 18
+        x: 240
+        y: 152
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +734,10 @@ TextureImporter:
       name: buildersheet_24
       rect:
         serializedVersion: 2
-        x: 255
-        y: 80
-        width: 17
-        height: 18
+        x: 0
+        y: 120
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: buildersheet_25
       rect:
         serializedVersion: 2
-        x: 15
-        y: 31
-        width: 17
-        height: 18
+        x: 48
+        y: 120
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: buildersheet_26
       rect:
         serializedVersion: 2
-        x: 63
-        y: 32
-        width: 17
-        height: 18
+        x: 96
+        y: 120
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +800,10 @@ TextureImporter:
       name: buildersheet_27
       rect:
         serializedVersion: 2
-        x: 111
-        y: 31
-        width: 17
-        height: 18
+        x: 144
+        y: 120
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: buildersheet_28
       rect:
         serializedVersion: 2
-        x: 159
-        y: 31
-        width: 17
-        height: 17
+        x: 192
+        y: 120
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: buildersheet_29
       rect:
         serializedVersion: 2
-        x: 207
-        y: 31
-        width: 17
-        height: 18
+        x: 0
+        y: 88
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,10 +866,10 @@ TextureImporter:
       name: buildersheet_30
       rect:
         serializedVersion: 2
-        x: 255
-        y: 32
-        width: 17
-        height: 18
+        x: 48
+        y: 88
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,11 +884,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: buildersheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c1713f398ff9020987b99920a7eb3e
+      internalID: 1534889517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildersheet_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 88
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fa008aef1848776aa2b953df825e52
+      internalID: -837221868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildersheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b839038820878ebd383bec73787d06b3
+      internalID: 2042537893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildersheet_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b0c73931f07fafbb166debf53780d
+      internalID: 1902412886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 921330ae93ac28d96847ba5607206786
     internalID: 0
     vertices: []
     indices: 
@@ -896,7 +984,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       buildersheet_0: 4425028387389404887
       buildersheet_1: 5868876800720523498
@@ -923,6 +1013,10 @@ TextureImporter:
       buildersheet_29: 8771661837335545366
       buildersheet_3: 2339309429343531836
       buildersheet_30: -3049728277219306300
+      buildersheet_31: 1534889517
+      buildersheet_32: -837221868
+      buildersheet_33: 2042537893
+      buildersheet_34: 1902412886
       buildersheet_4: -2089527721751204073
       buildersheet_5: 6063023732815243125
       buildersheet_6: 1480881737181311158
