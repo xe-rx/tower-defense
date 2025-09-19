@@ -1,12 +1,12 @@
 using UnityEngine;
-using System.Collections;
 
 public class TowerSpawner : MonoBehaviour
 {
     [Header("Refs")]
-    [SerializeField] private Builder builder;         // drag your Builder here
-    [SerializeField] private GameObject towerPrefab;  // the tower to spawn
-    [SerializeField] private float spawnDelay = 1f;   // <-- new: configurable delay
+    [SerializeField] private Builder builder;
+
+    [Tooltip("Ordered by level: [0]=L1.Tower, [1]=L2.Tower, [2]=L3.Tower, ...")]
+    [SerializeField] private GameObject[] levelPrefabs;
 
     private void OnEnable()
     {
@@ -20,33 +20,52 @@ public class TowerSpawner : MonoBehaviour
 
     private void HandleBuildRequested(PlotNode plot)
     {
-        if (plot == null || !plot.CanBuild) return;
-        if (towerPrefab == null)
+        if (plot == null) return;
+
+        if (levelPrefabs == null || levelPrefabs.Length == 0 || levelPrefabs[0] == null)
         {
-            Debug.LogWarning("[TowerSpawner] No towerPrefab assigned.");
+            Debug.LogWarning("[TowerSpawner] levelPrefabs not set correctly (need at least L1 at index 0).");
             return;
         }
 
-        // Start delayed spawn
-        StartCoroutine(SpawnAfterDelay(plot));
-    }
+        // Decide target level: build L1 if empty, else upgrade to next if possible
+        int targetLevel = (!plot.isBuilt || plot.level < 0) ? 0 : plot.level + 1;
 
-    private IEnumerator SpawnAfterDelay(PlotNode plot)
-    {
-        yield return new WaitForSeconds(spawnDelay);
+        if (targetLevel >= levelPrefabs.Length || levelPrefabs[targetLevel] == null)
+        {
+            // Already max level or missing prefab for next level
+            return;
+        }
 
-        if (!plot.CanBuild) yield break; // player might have built another tower in the meantime
+        if (plot.buildAnchor == null)
+        {
+            Debug.LogWarning("[TowerSpawner] Plot has no buildAnchor assigned.");
+            return;
+        }
 
-        var instance = Instantiate(towerPrefab, plot.buildAnchor.position, plot.buildAnchor.rotation);
-        plot.currentTower = instance;
-        plot.isBuilt = true;
+        // SCREEN SHAKE immediately at impact (no delay, no coroutine)
+        if (Camera.main != null)
+        {
+            var shaker = Camera.main.GetComponent<CameraShake>();
+            if (shaker != null) shaker.Shake(0f);
+        }
 
-        // Parent under the plot for tidy hierarchy
+        // Upgrade: remove old tower
+        if (plot.isBuilt && plot.currentTower != null)
+        {
+            Destroy(plot.currentTower);
+            plot.currentTower = null;
+        }
+
+        // Spawn / Upgrade instantly
+        var prefab = levelPrefabs[targetLevel];
+        var instance = Instantiate(prefab, plot.buildAnchor.position, plot.buildAnchor.rotation);
         instance.transform.SetParent(plot.transform, worldPositionStays: true);
 
-        // Optionally hide selector
-        if (plot.buildAnchor.gameObject.activeSelf)
-            plot.buildAnchor.gameObject.SetActive(false);
+        // Update state
+        plot.currentTower = instance;
+        plot.isBuilt = true;
+        plot.level = targetLevel;
     }
 }
 

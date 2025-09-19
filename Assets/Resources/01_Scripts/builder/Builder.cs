@@ -62,7 +62,9 @@ public class Builder : MonoBehaviour
   private float _dwellTimer;
   private bool _pressedDuringDwell;
   private bool _hasBufferedPress;
-  private bool _buildPlayedThisDwell;
+
+  private bool _buildAnimActive;        // true while Build clip is playing
+  private bool _buildImpactFiredThisAnim; // guards multiple impact calls per play
 
   // selector cache
   private readonly Dictionary<Transform, GameObject> _selectorMap = new();
@@ -170,7 +172,6 @@ public class Builder : MonoBehaviour
     CurrentNodeIndex = -1;
     _pressedDuringDwell = false;
     _hasBufferedPress = false;
-    _buildPlayedThisDwell = false;
     _rb.linearVelocity = Vector2.zero;
 
     OnPathStarted?.Invoke(_path);
@@ -193,36 +194,50 @@ public class Builder : MonoBehaviour
   }
 
   /// <summary> Call this from your input system when Space is pressed. </summary>
+
   public void RegisterSpacePress()
   {
-    if (_state == State.Dwelling)
-    {
-      _pressedDuringDwell = true;
+    // Only accept during dwell
+    if (_state != State.Dwelling) { _hasBufferedPress = true; return; }
 
-      // Trigger the one-shot Build animation (you already have this)
-      if (!_buildPlayedThisDwell && animator != null && !string.IsNullOrEmpty(buildTriggerName))
-      {
-        animator.ResetTrigger(buildTriggerName);
-        animator.SetTrigger(buildTriggerName);
-        _buildPlayedThisDwell = true;
-      }
+    // If build animation is already playing, ignore further presses (uninterruptable)
+    if (_buildAnimActive) return;
 
-      // NEW: raise a build request for the current plot
-      // We assume each node in _path is on (or under) a PlotNode.
-      PlotNode plot = null;
-      if (_path != null && CurrentNodeIndex >= 0 && CurrentNodeIndex < _path.Count)
-      {
-        var nodeT = _path[CurrentNodeIndex];
-        if (nodeT) plot = nodeT.GetComponentInParent<PlotNode>();
-      }
-      if (plot != null) OnBuildRequested?.Invoke(plot);
-    }
-    else
+    // Start the build animation and lock input until it ends
+    if (animator != null && !string.IsNullOrEmpty(buildStateName))
     {
-      _hasBufferedPress = true;
+      animator.ResetTrigger(buildTriggerName);   // safe even if unused
+      animator.Play(buildStateName, 0, 0f);      // hard-restart the Build state
+      _buildAnimActive = true;
+      _buildImpactFiredThisAnim = false;
     }
+
+    // Do NOT request build here anymore. The request will be fired by an Animation Event.
+    _pressedDuringDwell = true; // still record gameplay “pressed this dwell”
   }
 
+  /// <summary>Animation Event: call this at the hammer impact frame.</summary>
+  public void Animation_BuildImpact()
+  {
+    if (_state != State.Dwelling) return;              // only valid while dwelling
+    if (_buildImpactFiredThisAnim) return;             // guard multiple calls in one play
+    _buildImpactFiredThisAnim = true;
+
+    // Resolve current plot and raise build request
+    PlotNode plot = null;
+    if (_path != null && CurrentNodeIndex >= 0 && CurrentNodeIndex < _path.Count)
+    {
+      var nodeT = _path[CurrentNodeIndex];
+      if (nodeT) plot = nodeT.GetComponentInParent<PlotNode>();
+    }
+    if (plot != null) OnBuildRequested?.Invoke(plot);
+  }
+
+  /// <summary>Animation Event: call this at the very end of the Build clip.</summary>
+  public void Animation_BuildEnd()
+  {
+    _buildAnimActive = false;  // re-enable input after animation completed
+  }
 
   // ------------- Internals -------------
   private void AdvanceToNextNode()
@@ -326,7 +341,7 @@ public class Builder : MonoBehaviour
     _dwellTimer = Mathf.Max(0f, dwellTime);
     _pressedDuringDwell = false;
     _hasBufferedPress = false;
-    _buildPlayedThisDwell = false;
+    _buildImpactFiredThisAnim = false;
     _state = State.Dwelling;
     OnDwellStarted?.Invoke(CurrentNodeIndex, _dwellTimer);
 
@@ -381,7 +396,6 @@ public class Builder : MonoBehaviour
     _dwellTimer = 0f;
     _pressedDuringDwell = false;
     _hasBufferedPress = false;
-    _buildPlayedThisDwell = false;
     IsPathCompleted = false;
     IsPathRunning = false;
     _state = State.Idle;

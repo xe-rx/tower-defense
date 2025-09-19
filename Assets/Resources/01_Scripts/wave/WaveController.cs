@@ -26,6 +26,9 @@ public class WaveController : MonoBehaviour
   public WaveState State { get; private set; } = WaveState.Idle;
   public int WaveIndex { get; private set; } = 0;
 
+  [SerializeField] private Builder builder;
+  [SerializeField] private PathDirector pathDirector;
+
   float _timer;
   SpawnScheduler _scheduler;
   WaveSource _source;
@@ -39,18 +42,22 @@ public class WaveController : MonoBehaviour
   void Start()
   {
     if (autoStart) StartRun();
+    if (pathDirector != null && builder != null)
+      pathDirector.Init(builder);  // tell PD which builder to drive
 
   }
 
   void Update()
   {
     if (State == WaveState.Paused || State == WaveState.GameOver) return;
+
     switch (State)
     {
       case WaveState.Spawning:
         _scheduler.Update(Time.deltaTime);
 
-        if (_scheduler.Done && EnemyTracker.AliveCount == 0)
+        // >>> NEW: include builder completion in the end-of-wave condition
+        if (_scheduler.Done && EnemyTracker.AliveCount == 0 && (builder?.IsPathCompleted ?? true))
           EnterIntermission();
         break;
 
@@ -58,10 +65,6 @@ public class WaveController : MonoBehaviour
         _timer -= Time.deltaTime;
         if (_timer <= 0f)
           NextWave();
-        break;
-
-      case WaveState.Idle:
-        // waiting for start
         break;
     }
   }
@@ -101,18 +104,21 @@ public class WaveController : MonoBehaviour
     State = WaveState.GameOver;
   }
 
+
   void NextWave()
   {
     WaveIndex += 1;
     var wave = _source.GetWave(WaveIndex);
 
-    // TEMPORARY WAY OF HANDLING
     if (wave == null)
     {
-      Debug.LogWarning($"No way data for index {WaveIndex}, ending");
+      Debug.LogWarning($"No wave data for index {WaveIndex}, ending");
       State = WaveState.GameOver;
       return;
     }
+
+    // >>> NEW: start a new builder path for this wave
+    if (pathDirector != null) pathDirector.BeginWavePath();
 
     // builds a timeline of spawn events from WaveData
     var eventsList = BuildEvents(wave);
