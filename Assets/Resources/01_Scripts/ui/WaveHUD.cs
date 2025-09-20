@@ -8,7 +8,7 @@ public class WaveHUD : MonoBehaviour
 
     void Reset()
     {
-        waveController = FindObjectOfType<WaveController>();
+        waveController = FindFirstObjectByType<WaveController>();
         waveText = GetComponentInChildren<TMP_Text>();
     }
 
