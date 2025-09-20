@@ -7,7 +7,7 @@ using UnityEngine;
 /// dwells at each node, reports completion, and drives animations.
 /// Axis-aligned movement only (no diagonals).
 /// Walk uses left/right clips (no mirroring).
-/// Idle always faces left (flipX = true).
+/// Idle always faces left (flipX = true)
 /// Build animation always faces right (flipX = false).
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
