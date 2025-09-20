@@ -48,6 +48,8 @@ public class Builder : MonoBehaviour
   public event Action<string> OnPathCancelled;
   public event System.Action<PlotNode> OnBuildRequested;
 
+  public float InputBufferSeconds => inputBufferSeconds;
+
   // ------------ Internals ------------
   private enum State { Idle, WalkingX, WalkingY, Dwelling, Completed, Cancelled }
   private State _state = State.Idle;
@@ -109,9 +111,8 @@ public class Builder : MonoBehaviour
     {
       _dwellTimer -= Time.deltaTime;
 
-      if (_hasBufferedPress && _dwellTimer <= inputBufferSeconds)
+      if (_dwellTimer <= inputBufferSeconds)
       {
-        _pressedDuringDwell = true;
         _hasBufferedPress = false;
       }
 
@@ -194,13 +195,15 @@ public class Builder : MonoBehaviour
   }
 
   /// <summary> Call this from your input system when Space is pressed. </summary>
-
   public void RegisterSpacePress()
   {
-    // Only accept during dwell
-    if (_state != State.Dwelling) { _hasBufferedPress = true; return; }
+    // Only accept while dwelling
+    if (_state != State.Dwelling) return;
 
-    // If build animation is already playing, ignore further presses (uninterruptable)
+    // Reverse grace (lockout): ignore presses in the final window
+    if (_dwellTimer <= inputBufferSeconds) return;
+
+    // If build animation is already playing, ignore (uninterruptable)
     if (_buildAnimActive) return;
 
     // Start the build animation and lock input until it ends
@@ -212,8 +215,8 @@ public class Builder : MonoBehaviour
       _buildImpactFiredThisAnim = false;
     }
 
-    // Do NOT request build here anymore. The request will be fired by an Animation Event.
-    _pressedDuringDwell = true; // still record gameplay “pressed this dwell”
+    // Mark that a valid press occurred this dwell (for any listeners/UI)
+    _pressedDuringDwell = true;
   }
 
   /// <summary>Animation Event: call this at the hammer impact frame.</summary>
