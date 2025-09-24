@@ -41,10 +41,10 @@ public class WaveController : MonoBehaviour
 
   void Start()
   {
-    if (autoStart) StartRun();
     if (pathDirector != null && builder != null)
-      pathDirector.Init(builder);  // tell PD which builder to drive
-
+      pathDirector.Init(builder);
+    if (autoStart)
+      StartRun();
   }
 
   void Update()

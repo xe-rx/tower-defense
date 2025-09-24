@@ -20,21 +20,19 @@ public class Tower : MonoBehaviour
   {
     if (target)
     {
+      var enemy = target.GetComponent<Enemy>();
+      if (enemy == null || enemy.IsDying) { target = null; return; }
+
       if (cooldown >= fireRate)
       {
-        // Tower tracks enemy
-        // transform.right = target.transform.position - transform.position;
-
-        target.GetComponent<Enemy>().DamageEnemy(damage);
+        enemy.DamageEnemy(damage);
         cooldown = 0f;
         Debug.Log("enemy damaged");
-
       }
       else
       {
-        cooldown += 1 * Time.deltaTime;
+        cooldown += Time.deltaTime;
       }
-
     }
   }
 }

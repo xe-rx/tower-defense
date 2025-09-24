@@ -4,55 +4,61 @@ using UnityEngine;
 [RequireComponent(typeof(CircleCollider2D))]
 public class TowerRange : MonoBehaviour
 {
-    [SerializeField] private Tower Tower;
-    private readonly List<GameObject> targets = new();
+  [SerializeField] private Tower Tower;
+  private readonly List<GameObject> targets = new();
 
-    private CircleCollider2D circle;
+  private CircleCollider2D circle;
 
-    void Awake()
+  void Awake()
+  {
+    circle = GetComponent<CircleCollider2D>();
+    circle.isTrigger = true; // make sure it's a trigger
+  }
+
+  void Start()
+  {
+    UpdateRange();
+  }
+
+
+  void Update()
+  {
+    // Remove nulls or dying enemies
+    for (int i = targets.Count - 1; i >= 0; i--)
     {
-        circle = GetComponent<CircleCollider2D>();
-        circle.isTrigger = true; // make sure it's a trigger
+      var go = targets[i];
+      if (go == null) { targets.RemoveAt(i); continue; }
+
+      var e = go.GetComponent<Enemy>();
+      if (e == null || e.IsDying) { targets.RemoveAt(i); continue; }
     }
 
-    void Start()
+    Tower.target = targets.Count > 0 ? targets[0] : null;
+  }
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    Debug.Log("Trigger entered by " + collision.name);
+
+    if (collision.CompareTag("Enemy"))
     {
-        UpdateRange();
+      targets.Add(collision.gameObject);
+      Debug.Log("Enemy added to list: " + collision.name);
     }
+  }
 
-    void Update()
+  private void OnTriggerExit2D(Collider2D collision)
+  {
+    if (collision.CompareTag("Enemy"))
     {
-        // Clean out destroyed enemies
-        while (targets.Count > 0 && targets[0] == null)
-            targets.RemoveAt(0);
-
-        Tower.target = targets.Count > 0 ? targets[0] : null;
+      targets.Remove(collision.gameObject);
+      Debug.Log("Enemy removed from list: " + collision.name);
     }
+  }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Trigger entered by " + collision.name);
-
-        if (collision.CompareTag("Enemy"))
-        {
-            targets.Add(collision.gameObject);
-            Debug.Log("Enemy added to list: " + collision.name);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy"))
-        {
-            targets.Remove(collision.gameObject);
-            Debug.Log("Enemy removed from list: " + collision.name);
-        }
-    }
-
-    public void UpdateRange()
-    {
-        // Set collider radius instead of scaling transform
-        circle.radius = Tower.range > 0 ? Tower.range : 0.1f;
-    }
+  public void UpdateRange()
+  {
+    // Set collider radius instead of scaling transform
+    circle.radius = Tower.range > 0 ? Tower.range : 0.1f;
+  }
 }
 

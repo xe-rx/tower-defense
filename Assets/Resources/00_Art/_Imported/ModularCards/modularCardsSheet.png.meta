@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: cf29c990ce3b48ff1a410ace2c1c1f08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3463184822991712619
+    second: modularCardsSheet_0
+  - first:
+      213: 5868917874430216214
+    second: modularCardsSheet_1
+  - first:
+      213: -4830141639810625863
+    second: modularCardsSheet_2
+  - first:
+      213: 1567607081898709457
+    second: modularCardsSheet_3
+  - first:
+      213: 6721605305996596066
+    second: modularCardsSheet_4
+  - first:
+      213: 7654712610928059698
+    second: modularCardsSheet_5
+  - first:
+      213: 6407827657733224314
+    second: modularCardsSheet_6
+  - first:
+      213: 8319490246025671292
+    second: modularCardsSheet_7
+  - first:
+      213: 5972375314514638354
+    second: modularCardsSheet_8
+  - first:
+      213: 4500679446062049829
+    second: modularCardsSheet_9
+  - first:
+      213: 7822967403007233073
+    second: modularCardsSheet_10
+  - first:
+      213: 4437097477518002632
+    second: modularCardsSheet_11
+  - first:
+      213: 9110141283246846631
+    second: modularCardsSheet_12
+  - first:
+      213: 4034122102616054761
+    second: modularCardsSheet_13
+  - first:
+      213: 3420990162712800706
+    second: modularCardsSheet_14
+  - first:
+      213: 1808259656546580671
+    second: modularCardsSheet_15
+  - first:
+      213: 7379743924290668599
+    second: modularCardsSheet_16
+  - first:
+      213: 4829661122595862382
+    second: modularCardsSheet_17
+  - first:
+      213: 8172591835053057717
+    second: modularCardsSheet_18
+  - first:
+      213: -372663302570844007
+    second: modularCardsSheet_19
+  - first:
+      213: -9101701767767183777
+    second: modularCardsSheet_20
+  - first:
+      213: -3223313130256077163
+    second: modularCardsSheet_21
+  - first:
+      213: -5415193397546640080
+    second: modularCardsSheet_22
+  - first:
+      213: 1344877896073763638
+    second: modularCardsSheet_23
+  - first:
+      213: 5557397510546344049
+    second: modularCardsSheet_24
+  - first:
+      213: -1178610333317195358
+    second: modularCardsSheet_25
+  - first:
+      213: -7211595386357610103
+    second: modularCardsSheet_26
+  - first:
+      213: 1726598520116531294
+    second: modularCardsSheet_27
+  - first:
+      213: -3398172864160260156
+    second: modularCardsSheet_28
+  - first:
+      213: -2606115942687398503
+    second: modularCardsSheet_29
+  - first:
+      213: -5867517097003574395
+    second: modularCardsSheet_30
+  - first:
+      213: -6425659998294395255
+    second: modularCardsSheet_31
+  - first:
+      213: -9167759484591638629
+    second: modularCardsSheet_32
+  - first:
+      213: -5805020160614726845
+    second: modularCardsSheet_33
+  - first:
+      213: -2977434027942323522
+    second: modularCardsSheet_34
+  - first:
+      213: -519828534900552151
+    second: modularCardsSheet_35
+  - first:
+      213: -3832835040749448873
+    second: modularCardsSheet_36
+  - first:
+      213: 5321983174314332413
+    second: modularCardsSheet_37
+  - first:
+      213: -2568597566052656981
+    second: modularCardsSheet_38
+  - first:
+      213: 6840754486239466089
+    second: modularCardsSheet_39
+  - first:
+      213: -8652911957262901817
+    second: modularCardsSheet_40
+  - first:
+      213: -5953818048397740822
+    second: modularCardsSheet_41
+  - first:
+      213: -1484521631789253106
+    second: modularCardsSheet_42
+  - first:
+      213: 6744108454119400240
+    second: modularCardsSheet_43
+  - first:
+      213: -7779838087888353738
+    second: modularCardsSheet_44
+  - first:
+      213: -5944305225011380177
+    second: modularCardsSheet_45
+  - first:
+      213: -1212592832804742769
+    second: modularCardsSheet_46
+  - first:
+      213: 2897942456922818978
+    second: modularCardsSheet_47
+  - first:
+      213: -4447509900208062281
+    second: modularCardsSheet_48
+  - first:
+      213: 6500505058806268456
+    second: modularCardsSheet_49
+  - first:
+      213: 6003687248927189789
+    second: modularCardsSheet_50
+  - first:
+      213: 8782781413652795464
+    second: modularCardsSheet_51
+  - first:
+      213: -4395948183850031578
+    second: modularCardsSheet_52
+  - first:
+      213: -7296895339474323903
+    second: modularCardsSheet_53
+  - first:
+      213: -498734509713987214
+    second: modularCardsSheet_54
+  - first:
+      213: -7705789950004158630
+    second: modularCardsSheet_55
+  - first:
+      213: -6082466837521825721
+    second: modularCardsSheet_56
+  - first:
+      213: -6865940945518976003
+    second: modularCardsSheet_57
+  - first:
+      213: -8179818827492980044
+    second: modularCardsSheet_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: modularCardsSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e0e0290cb40ffc0800000000000000
+      internalID: -3463184822991712619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 369
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6188a5146b5927150800000000000000
+      internalID: 5868917874430216214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 369
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bec34015c3e7fcb0800000000000000
+      internalID: -4830141639810625863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 372
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d195ffd55241c510800000000000000
+      internalID: 1567607081898709457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 357
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263de48c960f74d50800000000000000
+      internalID: 6721605305996596066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 322
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235e11030900b3a60800000000000000
+      internalID: 7654712610928059698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77bc19fd4d2de850800000000000000
+      internalID: 6407827657733224314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72ffaadc44c47370800000000000000
+      internalID: 8319490246025671292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 356
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216f4fe94b322e250800000000000000
+      internalID: 5972375314514638354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 301
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a2e6e4c10a57e30800000000000000
+      internalID: 4500679446062049829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 337
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cc4b9b763c09c60800000000000000
+      internalID: 7822967403007233073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 337
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90e35a5acb39d30800000000000000
+      internalID: 4437097477518002632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2bc81ca39bd6e70800000000000000
+      internalID: 9110141283246846631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 325
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb5bfabda41cf730800000000000000
+      internalID: 4034122102616054761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd2a948d6cc97f20800000000000000
+      internalID: 3420990162712800706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8f02ab39a381910800000000000000
+      internalID: 1808259656546580671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73841b4effd1a6660800000000000000
+      internalID: 7379743924290668599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 305
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6737ddc337660340800000000000000
+      internalID: 4829661122595862382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 305
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6689649f0ea6170800000000000000
+      internalID: 8172591835053057717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 308
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e07563b804daf0800000000000000
+      internalID: -372663302570844007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 293
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e21b0177240b180800000000000000
+      internalID: -9101701767767183777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 258
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59eeb3f29cd7443d0800000000000000
+      internalID: -3223313130256077163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_22
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d113dbb4e59d4b0800000000000000
+      internalID: -5415193397546640080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b50cd2257f9a210800000000000000
+      internalID: 1344877896073763638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 292
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17841cb6797df1d40800000000000000
+      internalID: 5557397510546344049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 273
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9160a752cb4afe0800000000000000
+      internalID: -1178610333317195358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 273
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9890f4c64344beb90800000000000000
+      internalID: -7211595386357610103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 276
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50d245c43c16f710800000000000000
+      internalID: 1726598520116531294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 261
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf1b5ac8c347d0d0800000000000000
+      internalID: -3398172864160260156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_29
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995a2a0ab5735dbd0800000000000000
+      internalID: -2606115942687398503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b1297a944629ea0800000000000000
+      internalID: -5867517097003574395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 260
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986b932b64873d6a0800000000000000
+      internalID: -6425659998294395255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_32
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 205
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9772b6525395c080800000000000000
+      internalID: -9167759484591638629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 241
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34304949bec607fa0800000000000000
+      internalID: -5805020160614726845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 241
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba5656d6870ea6d0800000000000000
+      internalID: -2977434027942323522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 244
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e0421a3b239c8f0800000000000000
+      internalID: -519828534900552151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_36
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 229
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751957176d80fcac0800000000000000
+      internalID: -3832835040749448873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df09c9dff7b7bd940800000000000000
+      internalID: 5321983174314332413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba89f786f128a5cd0800000000000000
+      internalID: -2568597566052656981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 225
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96296fb16fd3fee50800000000000000
+      internalID: 6840754486239466089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 228
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd5d928b6eaae780800000000000000
+      internalID: -8652911957262901817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_41
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 194
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae471f7970acf5da0800000000000000
+      internalID: -5953818048397740822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 197
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e71d3f07be56be0800000000000000
+      internalID: -1484521631789253106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 179
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033ee7e38e2e79d50800000000000000
+      internalID: 6744108454119400240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 130
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6364c597a76780490800000000000000
+      internalID: -7779838087888353738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c2b264e5918da0800000000000000
+      internalID: -5944305225011380177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_46
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 109
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f891d7f3e310c2fe0800000000000000
+      internalID: -1212592832804742769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_47
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a948648f4f873820800000000000000
+      internalID: 2897942456922818978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_48
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 131
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0c0174f454742c0800000000000000
+      internalID: -4447509900208062281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 99
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82207cae8ee663a50800000000000000
+      internalID: 6500505058806268456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_50
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 66
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be8d67eb1615350800000000000000
+      internalID: 6003687248927189789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_51
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8409dac9925b2e970800000000000000
+      internalID: 8782781413652795464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 83
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6266892ea647ef2c0800000000000000
+      internalID: -4395948183850031578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_53
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 13
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146fd6f69583cba90800000000000000
+      internalID: -7296895339474323903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 51
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279e4471b932419f0800000000000000
+      internalID: -498734509713987214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_55
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f1a341ed88f0590800000000000000
+      internalID: -7705789950004158630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7400b6733acb69ba0800000000000000
+      internalID: -6082466837521825721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_57
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3288d561747b0a0800000000000000
+      internalID: -6865940945518976003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modularCardsSheet_58
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba8a3c6d127b7e80800000000000000
+      internalID: -8179818827492980044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      modularCardsSheet_0: -3463184822991712619
+      modularCardsSheet_1: 5868917874430216214
+      modularCardsSheet_10: 7822967403007233073
+      modularCardsSheet_11: 4437097477518002632
+      modularCardsSheet_12: 9110141283246846631
+      modularCardsSheet_13: 4034122102616054761
+      modularCardsSheet_14: 3420990162712800706
+      modularCardsSheet_15: 1808259656546580671
+      modularCardsSheet_16: 7379743924290668599
+      modularCardsSheet_17: 4829661122595862382
+      modularCardsSheet_18: 8172591835053057717
+      modularCardsSheet_19: -372663302570844007
+      modularCardsSheet_2: -4830141639810625863
+      modularCardsSheet_20: -9101701767767183777
+      modularCardsSheet_21: -3223313130256077163
+      modularCardsSheet_22: -5415193397546640080
+      modularCardsSheet_23: 1344877896073763638
+      modularCardsSheet_24: 5557397510546344049
+      modularCardsSheet_25: -1178610333317195358
+      modularCardsSheet_26: -7211595386357610103
+      modularCardsSheet_27: 1726598520116531294
+      modularCardsSheet_28: -3398172864160260156
+      modularCardsSheet_29: -2606115942687398503
+      modularCardsSheet_3: 1567607081898709457
+      modularCardsSheet_30: -5867517097003574395
+      modularCardsSheet_31: -6425659998294395255
+      modularCardsSheet_32: -9167759484591638629
+      modularCardsSheet_33: -5805020160614726845
+      modularCardsSheet_34: -2977434027942323522
+      modularCardsSheet_35: -519828534900552151
+      modularCardsSheet_36: -3832835040749448873
+      modularCardsSheet_37: 5321983174314332413
+      modularCardsSheet_38: -2568597566052656981
+      modularCardsSheet_39: 6840754486239466089
+      modularCardsSheet_4: 6721605305996596066
+      modularCardsSheet_40: -8652911957262901817
+      modularCardsSheet_41: -5953818048397740822
+      modularCardsSheet_42: -1484521631789253106
+      modularCardsSheet_43: 6744108454119400240
+      modularCardsSheet_44: -7779838087888353738
+      modularCardsSheet_45: -5944305225011380177
+      modularCardsSheet_46: -1212592832804742769
+      modularCardsSheet_47: 2897942456922818978
+      modularCardsSheet_48: -4447509900208062281
+      modularCardsSheet_49: 6500505058806268456
+      modularCardsSheet_5: 7654712610928059698
+      modularCardsSheet_50: 6003687248927189789
+      modularCardsSheet_51: 8782781413652795464
+      modularCardsSheet_52: -4395948183850031578
+      modularCardsSheet_53: -7296895339474323903
+      modularCardsSheet_54: -498734509713987214
+      modularCardsSheet_55: -7705789950004158630
+      modularCardsSheet_56: -6082466837521825721
+      modularCardsSheet_57: -6865940945518976003
+      modularCardsSheet_58: -8179818827492980044
+      modularCardsSheet_6: 6407827657733224314
+      modularCardsSheet_7: 8319490246025671292
+      modularCardsSheet_8: 5972375314514638354
+      modularCardsSheet_9: 4500679446062049829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
