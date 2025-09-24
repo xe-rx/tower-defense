@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 5
   damage: 1
-  fireRate: 2
+  fireRate: 1.2
   target: {fileID: 0}
 --- !u!1 &4208873161965417528
 GameObject:
