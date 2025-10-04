@@ -16,6 +16,9 @@ public class PlayerSession : MonoBehaviour
     public int Health { get; private set; }
     public int Gold { get; private set; }
 
+    // 🔔 NEW: event so selectors & UI can listen for gold changes
+    public event System.Action OnGoldChanged;
+
     void Awake()
     {
         main = this;
@@ -46,6 +49,20 @@ public class PlayerSession : MonoBehaviour
     {
         Gold += amount;
         UpdateGoldUI();
+        OnGoldChanged?.Invoke(); // 🔔 notify listeners
+    }
+
+    // Optional: safe spend method
+    public bool TrySpendGold(int amount)
+    {
+        if (Gold >= amount)
+        {
+            Gold -= amount;
+            UpdateGoldUI();
+            OnGoldChanged?.Invoke(); // 🔔 notify listeners
+            return true;
+        }
+        return false;
     }
 
     void UpdateUI()

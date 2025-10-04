@@ -90,6 +90,18 @@ public class Builder : MonoBehaviour
   {
     var go = GetSelectorGO(node);
     if (go) go.SetActive(show);
+
+    // ALSO update label if it lives outside the Selector:
+    var plot = node.GetComponentInParent<PlotNode>();
+    if (plot)
+    {
+      var costLabel = plot.GetComponentInChildren<SelectorCostLabel>(includeInactive: true);
+      if (costLabel)
+      {
+        if (show) costLabel.Show();
+        else costLabel.Hide();
+      }
+    }
   }
 
   // ------------- Unity -------------
