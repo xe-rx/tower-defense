@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 2261870478391426351}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 9690a320985a26885878e4293b7d239e, type: 2}
+  m_Controller: {fileID: 22100000, guid: 770f9bbc288007fe4a34aaceff720dfd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
     m_TrimEdge: 0
     m_FlipX: 0
     m_FlipY: 0
-    m_InitialTrim: 0.05
+    m_InitialTrim: 0
   m_CastingOption: 1
   m_PreviousTrimEdge: 0
   m_PreviousEdgeProcessing: 1

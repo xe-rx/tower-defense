@@ -34,19 +34,36 @@ public class Builder : MonoBehaviour
   [Tooltip("State name of the one-shot Build animation (used to force facing right while it plays).")]
   [SerializeField] private string buildStateName = "Build";
 
+  [Header("Refusal Flash")]
+  [Tooltip("Seconds to keep the red flash visible when refusing a build.")]
+  [SerializeField] private float refusalFlashSeconds = 1f;
+  [Tooltip("The color to flash when refusing.")]
+  [SerializeField] private Color refusalColor = new Color(1f, 0.25f, 0.25f, 1f);
+
   // ------------ Public read-only state ------------
   public bool IsPathRunning { get; private set; }
   public bool IsPathCompleted { get; private set; }
   public int CurrentNodeIndex { get; private set; } = -1;
 
-  // ------------ Events ------------
+  // ------------ Events & hooks ------------
   public event Action<IReadOnlyList<Transform>> OnPathStarted;
   public event Action<int, Transform> OnNodeArrived;
   public event Action<int, float> OnDwellStarted;
   public event Action<int, bool> OnDwellCompleted;
   public event Action OnPathCompleted;
   public event Action<string> OnPathCancelled;
+
+  /// <summary>
+  /// Raised at the impact frame to actually request a build (unchanged).
+  /// TowerSpawner subscribes to this to do the spend+spawn.
+  /// </summary>
   public event System.Action<PlotNode> OnBuildRequested;
+
+  /// <summary>
+  /// Optional pre-check hook: if set, builder will call this BEFORE playing the build animation.
+  /// Return false to refuse (builder will flash red and NOT play the build animation).
+  /// </summary>
+  public Func<PlotNode, bool> CanStartBuild;
 
   public float InputBufferSeconds => inputBufferSeconds;
 
@@ -63,13 +80,16 @@ public class Builder : MonoBehaviour
   // dwell/input
   private float _dwellTimer;
   private bool _pressedDuringDwell;
-  private bool _hasBufferedPress;
 
-  private bool _buildAnimActive;        // true while Build clip is playing
+  private bool _buildAnimActive;          // true while Build clip is playing
   private bool _buildImpactFiredThisAnim; // guards multiple impact calls per play
 
   // selector cache
   private readonly Dictionary<Transform, GameObject> _selectorMap = new();
+
+  // refusal flash
+  private Color _baseColor = Color.white;
+  private Coroutine _flashCo;
 
   // ---------- Selector helpers ----------
   private GameObject GetSelectorGO(Transform node)
@@ -114,6 +134,7 @@ public class Builder : MonoBehaviour
 
     if (animator == null) animator = GetComponent<Animator>() ?? GetComponentInChildren<Animator>();
     if (sprite == null) sprite = GetComponent<SpriteRenderer>() ?? GetComponentInChildren<SpriteRenderer>();
+    if (sprite) _baseColor = sprite.color;
   }
 
   private void Update()
@@ -122,11 +143,6 @@ public class Builder : MonoBehaviour
     if (_state == State.Dwelling)
     {
       _dwellTimer -= Time.deltaTime;
-
-      if (_dwellTimer <= inputBufferSeconds)
-      {
-        _hasBufferedPress = false;
-      }
 
       if (_dwellTimer <= 0f)
       {
@@ -184,7 +200,6 @@ public class Builder : MonoBehaviour
     IsPathRunning = true;
     CurrentNodeIndex = -1;
     _pressedDuringDwell = false;
-    _hasBufferedPress = false;
     _rb.linearVelocity = Vector2.zero;
 
     OnPathStarted?.Invoke(_path);
@@ -218,6 +233,22 @@ public class Builder : MonoBehaviour
     // If build animation is already playing, ignore (uninterruptable)
     if (_buildAnimActive) return;
 
+    // Pre-check affordability (or other rules) BEFORE playing the build animation
+    var plot = GetCurrentPlot();
+    if (plot != null && CanStartBuild != null)
+    {
+      bool ok = false;
+      try { ok = CanStartBuild.Invoke(plot); }
+      catch (Exception e) { Debug.LogException(e); }
+
+      if (!ok)
+      {
+        // Instantly refuse: flash red and DO NOT play the build animation
+        RefuseFlash(refusalFlashSeconds);
+        return;
+      }
+    }
+
     // Start the build animation and lock input until it ends
     if (animator != null && !string.IsNullOrEmpty(buildStateName))
     {
@@ -239,12 +270,7 @@ public class Builder : MonoBehaviour
     _buildImpactFiredThisAnim = true;
 
     // Resolve current plot and raise build request
-    PlotNode plot = null;
-    if (_path != null && CurrentNodeIndex >= 0 && CurrentNodeIndex < _path.Count)
-    {
-      var nodeT = _path[CurrentNodeIndex];
-      if (nodeT) plot = nodeT.GetComponentInParent<PlotNode>();
-    }
+    PlotNode plot = GetCurrentPlot();
     if (plot != null) OnBuildRequested?.Invoke(plot);
   }
 
@@ -254,7 +280,50 @@ public class Builder : MonoBehaviour
     _buildAnimActive = false;  // re-enable input after animation completed
   }
 
+  /// <summary>
+  /// Instantly tints the builder red, then fades back over `seconds`.
+  /// Also snaps animator to Idle (if present) so no build anim plays/continues.
+  /// </summary>
+  public void RefuseFlash(float seconds = 1f)
+  {
+    // hard cancel any build anim if you have an Animator
+    var anim = animator != null ? animator : GetComponent<Animator>();
+    if (anim) anim.Play("Idle", 0, 0f);
+
+    if (!sprite) return;
+
+    if (_flashCo != null) StopCoroutine(_flashCo);
+    _flashCo = StartCoroutine(CoFlash(seconds));
+  }
+
+  private System.Collections.IEnumerator CoFlash(float seconds)
+  {
+    sprite.color = new Color(refusalColor.r, refusalColor.g, refusalColor.b, _baseColor.a);
+
+    float t = 0f;
+    while (t < seconds)
+    {
+      t += Time.unscaledDeltaTime;
+      float k = Mathf.Clamp01(t / seconds);
+      sprite.color = Color.Lerp(new Color(refusalColor.r, refusalColor.g, refusalColor.b, _baseColor.a), _baseColor, k);
+      yield return null;
+    }
+
+    sprite.color = _baseColor;
+    _flashCo = null;
+  }
+
   // ------------- Internals -------------
+  private PlotNode GetCurrentPlot()
+  {
+    if (_path != null && CurrentNodeIndex >= 0 && CurrentNodeIndex < _path.Count)
+    {
+      var nodeT = _path[CurrentNodeIndex];
+      if (nodeT) return nodeT.GetComponentInParent<PlotNode>();
+    }
+    return null;
+  }
+
   private void AdvanceToNextNode()
   {
     CurrentNodeIndex++;
@@ -355,7 +424,6 @@ public class Builder : MonoBehaviour
     // Start dwell
     _dwellTimer = Mathf.Max(0f, dwellTime);
     _pressedDuringDwell = false;
-    _hasBufferedPress = false;
     _buildImpactFiredThisAnim = false;
     _state = State.Dwelling;
     OnDwellStarted?.Invoke(CurrentNodeIndex, _dwellTimer);
@@ -410,7 +478,6 @@ public class Builder : MonoBehaviour
     _movingAlongXFirst = true;
     _dwellTimer = 0f;
     _pressedDuringDwell = false;
-    _hasBufferedPress = false;
     IsPathCompleted = false;
     IsPathRunning = false;
     _state = State.Idle;
@@ -486,28 +553,5 @@ public class Builder : MonoBehaviour
         break;
     }
   }
-
-#if UNITY_EDITOR
-  // Optional gizmos to visualize the current path and node indices
-  private void OnDrawGizmosSelected()
-  {
-    if (_path == null || _path.Count == 0) return;
-
-    Gizmos.color = Color.cyan;
-    for (int i = 0; i < _path.Count; i++)
-    {
-      if (_path[i] == null) continue;
-      Gizmos.DrawWireSphere(_path[i].position, 0.1f);
-      if (i < _path.Count - 1 && _path[i + 1] != null)
-      {
-        Vector3 a = _path[i].position;
-        Vector3 b = _path[i + 1].position;
-        Vector3 mid = new Vector3(b.x, a.y, a.z);
-        Gizmos.DrawLine(a, mid);
-        Gizmos.DrawLine(mid, b);
-      }
-    }
-  }
-#endif
 }
 

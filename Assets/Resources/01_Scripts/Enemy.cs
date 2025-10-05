@@ -21,6 +21,9 @@ public class Enemy : MonoBehaviour
   private bool isDying = false;   // true while death anim plays
   public bool IsDying => isDying;
 
+  [Header("Pathing")]
+  [SerializeField] private float arriveRadius = 0.2f; // a bit bigger for 2x/4x
+
   void Awake()
   {
     rb = GetComponent<Rigidbody2D>();
@@ -60,26 +63,84 @@ public class Enemy : MonoBehaviour
   {
     if (isDying) { rb.linearVelocity = Vector2.zero; return; }
 
-    Vector2 direction = (checkpoint.position - transform.position).normalized;
-    rb.linearVelocity = direction * movespeed;
+    // Safety: make sure checkpoints exist
+    if (EnemyManager.main == null || EnemyManager.main.checkpoints == null || EnemyManager.main.checkpoints.Length == 0)
+      return;
 
-    var st = animator.GetCurrentAnimatorStateInfo(0);
-    if (st.IsName("EnemyHit")) return;
+    // Consume as many checkpoints as needed this physics step
+    int safety = 8; // avoid infinite loops on bad data
+    while (safety-- > 0)
+    {
+      if (index >= EnemyManager.main.checkpoints.Length)
+      {
+        // Already beyond last node (shouldn’t normally happen)
+        LeakAndDamage();
+        return;
+      }
 
-    // Basic animation switching
-    if (direction.x > 0.1f)
-    {
-      animator.Play("EnemyRight");
-      spriteRenderer.flipX = false;
-    }
-    else if (direction.x < -0.1f)
-    {
-      animator.Play("EnemyRight");
-      spriteRenderer.flipX = true;
-    }
-    else
-    {
-      animator.Play("EnemyRight");
+      checkpoint = EnemyManager.main.checkpoints[index];
+      if (checkpoint == null) { index++; continue; }
+
+      Vector2 pos = rb.position;
+      Vector2 target = checkpoint.position;
+      Vector2 toTarget = target - pos;
+      float dist = toTarget.magnitude;
+
+      // Reached (within radius): snap & advance
+      if (dist <= arriveRadius)
+      {
+        rb.MovePosition(target);
+        index++;
+        if (index >= EnemyManager.main.checkpoints.Length)
+        {
+          LeakAndDamage();
+          return;
+        }
+        // loop again in case we can reach next node this tick
+        continue;
+      }
+
+      float step = movespeed * Time.fixedDeltaTime;
+
+      // Would overshoot this frame? snap & advance
+      if (step >= dist)
+      {
+        rb.MovePosition(target);
+        index++;
+        if (index >= EnemyManager.main.checkpoints.Length)
+        {
+          LeakAndDamage();
+          return;
+        }
+        continue;
+      }
+
+      // Normal movement this frame
+      Vector2 dir = toTarget / dist;
+      rb.linearVelocity = dir * movespeed;
+
+      // Animation intent (keep your "EnemyHit" guard)
+      var st = animator.GetCurrentAnimatorStateInfo(0);
+      if (!st.IsName("EnemyHit"))
+      {
+        if (dir.x > 0.1f)
+        {
+          animator.Play("EnemyRight");
+          spriteRenderer.flipX = false;
+        }
+        else if (dir.x < -0.1f)
+        {
+          animator.Play("EnemyRight");
+          spriteRenderer.flipX = true;
+        }
+        else
+        {
+          animator.Play("EnemyRight");
+        }
+      }
+
+      // We’ve taken our movement for this tick; no more nodes to consume
+      break;
     }
   }
 

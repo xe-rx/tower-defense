@@ -37,7 +37,8 @@ public class TowerSpawner : MonoBehaviour
     {
       if (!PlayerSession.main.TrySpendGold(cost))
       {
-        // Optional: feedback (shake, sound, flash red)
+        if (builder != null) builder.RefuseFlash(1f);
+
         Debug.Log("Not enough gold.");
         return;
       }
