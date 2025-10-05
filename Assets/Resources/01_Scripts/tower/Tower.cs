@@ -8,13 +8,14 @@ public class Tower : MonoBehaviour
   public int damage = 1;
   public float fireRate = 1f;
 
+  [Header("Projectile")]
+  [SerializeField] private Projectile projectilePrefab; // drag your prefab
+  [SerializeField] private Transform muzzle;           // optional spawn point
+  [SerializeField] private float projectileSpeed = 7f;
+  [SerializeField] private bool homingProjectiles = true;
+
   public GameObject target;
   private float cooldown = 0f;
-
-  void Start()
-  {
-
-  }
 
   void Update()
   {
@@ -25,9 +26,8 @@ public class Tower : MonoBehaviour
 
       if (cooldown >= fireRate)
       {
-        enemy.DamageEnemy(damage);
+        Fire(enemy.transform);
         cooldown = 0f;
-        Debug.Log("enemy damaged");
       }
       else
       {
@@ -35,4 +35,19 @@ public class Tower : MonoBehaviour
       }
     }
   }
+
+  private void Fire(Transform enemy)
+  {
+    if (projectilePrefab == null)
+    {
+      Debug.LogWarning("No projectilePrefab set on Tower.");
+      return;
+    }
+
+    Vector3 pos = muzzle ? muzzle.position : transform.position;
+    var p = Instantiate(projectilePrefab, pos, Quaternion.identity);
+    p.Init(enemy, damage, projectileSpeed, homingProjectiles);
+  }
+
 }
+

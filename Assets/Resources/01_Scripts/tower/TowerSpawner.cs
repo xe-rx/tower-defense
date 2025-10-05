@@ -13,13 +13,31 @@ public class TowerSpawner : MonoBehaviour
 
   private void OnEnable()
   {
-    if (builder != null) builder.OnBuildRequested += HandleBuildRequested;
+    if (builder == null) return;
+
+    builder.OnBuildRequested += HandleBuildRequested;
+
+    // simple one-liner version of the precheck
+    builder.CanStartBuild = (plot) =>
+    {
+      if (plot == null) return false;
+
+      int targetLevel = (!plot.isBuilt || plot.level < 0) ? 0 : plot.level + 1;
+      if (targetLevel >= maxLevels) return false;
+
+      int cost = (targetLevel >= 0 && targetLevel < costs.Length) ? costs[targetLevel] : 0;
+      return PlayerSession.main != null && PlayerSession.main.Gold >= cost;
+    };
   }
+
 
   private void OnDisable()
   {
     if (builder != null) builder.OnBuildRequested -= HandleBuildRequested;
+
+    if (builder != null) builder.CanStartBuild = null;
   }
+
 
   private void HandleBuildRequested(PlotNode plot)
   {

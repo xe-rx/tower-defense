@@ -29,8 +29,6 @@ public class Builder : MonoBehaviour
   [Tooltip("Animator with parameters: MoveX (float), MoveY (float), IsMoving (bool), LastX (float), LastY (float), Trigger(Build).")]
   [SerializeField] private Animator animator;
   [SerializeField] private SpriteRenderer sprite;          // flipped only for idle (left) and forced right during Build
-  [Tooltip("Animator trigger name for the one-shot build/hammer animation.")]
-  [SerializeField] private string buildTriggerName = "Build";
   [Tooltip("State name of the one-shot Build animation (used to force facing right while it plays).")]
   [SerializeField] private string buildStateName = "Build";
 
@@ -252,7 +250,6 @@ public class Builder : MonoBehaviour
     // Start the build animation and lock input until it ends
     if (animator != null && !string.IsNullOrEmpty(buildStateName))
     {
-      animator.ResetTrigger(buildTriggerName);   // safe even if unused
       animator.Play(buildStateName, 0, 0f);      // hard-restart the Build state
       _buildAnimActive = true;
       _buildImpactFiredThisAnim = false;
@@ -286,7 +283,9 @@ public class Builder : MonoBehaviour
   /// </summary>
   public void RefuseFlash(float seconds = 1f)
   {
-    // hard cancel any build anim if you have an Animator
+    _buildAnimActive = false;             // ⬅️ important
+    _buildImpactFiredThisAnim = false;    // ⬅️ guard reset
+
     var anim = animator != null ? animator : GetComponent<Animator>();
     if (anim) anim.Play("Idle", 0, 0f);
 

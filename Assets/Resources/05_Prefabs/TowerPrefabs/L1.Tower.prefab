@@ -224,6 +224,10 @@ MonoBehaviour:
   range: 5
   damage: 1
   fireRate: 1.2
+  projectilePrefab: {fileID: 8934231357432457493, guid: 43071f78e277c83b1bb285ee290e2149, type: 3}
+  muzzle: {fileID: 0}
+  projectileSpeed: 7
+  homingProjectiles: 1
   target: {fileID: 0}
 --- !u!1 &4208873161965417528
 GameObject:
