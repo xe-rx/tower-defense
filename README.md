@@ -3,7 +3,7 @@ Inspiration on wave pathing:  https://www.youtube.com/playlist?list=PLJqgAlQY92w
 
 Continuous texture shader grass:                https://github.com/jess-hammer/repeated-texture-on-tilemap-demo-unity/tree/main
 
-Subset of sprites:                              https://toadzillart.itch.io/dungeons-pack?download
+Enemy and tile sprites:                         https://toadzillart.itch.io/dungeons-pack?download
 
 Color palette:                                  https://toadzillart.itch.io/dungeons-pack?download
 
