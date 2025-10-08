@@ -50,18 +50,31 @@ public class SelectorCostLabel : MonoBehaviour
 
     int targetLevel = (!plot.isBuilt || plot.level < 0) ? 0 : plot.level + 1;
 
+    string text;
     if (targetLevel >= towerCosts.Length)
     {
-      tmp.text = (sIconAsset != null)
-          ? $"MAX<space=0.02em><size=90%><sprite name={iconName}></size>"
-          : "MAX";
+      text = "MAX";
     }
     else
     {
       int cost = towerCosts[targetLevel];
-      tmp.text = (sIconAsset != null)
-          ? $"{cost}<space=0.02em><size=90%><sprite name={iconName}></size>"
-          : cost.ToString();
+      text = cost.ToString();
+    }
+
+    // Use an integer pixel gap between number and coin
+    // 1em == tmp.fontSize pixels (since you're using a bitmap pixel font).
+    const int gapPx = 2; // tweak to taste, but keep it integer
+    float gapEm = gapPx / tmp.fontSize; // exact conversion to em
+
+    // IMPORTANT: no <size=...> on the sprite → keeps integer scale
+    if (sIconAsset != null)
+    {
+      tmp.spriteAsset = sIconAsset;
+      tmp.text = $"{text}<space={gapEm}em><sprite name={iconName}>";
+    }
+    else
+    {
+      tmp.text = text;
     }
 
     tmp.gameObject.SetActive(true);

@@ -112,8 +112,9 @@ public class WaveController : MonoBehaviour
 
     if (wave == null)
     {
-      Debug.LogWarning($"No wave data for index {WaveIndex}, ending");
-      State = WaveState.GameOver;
+      Debug.Log("All waves complete → Victory");
+      State = WaveState.GameOver;                 // stop wave state machine
+      if (GameScreens.main) GameScreens.main.ShowWin();
       return;
     }
 

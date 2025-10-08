@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class TowerSpawner : MonoBehaviour
@@ -10,6 +11,32 @@ public class TowerSpawner : MonoBehaviour
 
   [SerializeField] private int[] costs = { 100, 200, 300 }; // same table as the label
   [SerializeField] private int maxLevels = 3;               // convenience
+
+  // --- NEW: minimal victory helpers ---
+  private bool AllPlotsMaxed()
+  {
+    // Level 3 == index 2 when maxLevels = 3, so check level >= maxLevels - 1
+    var plots = FindObjectsByType<PlotNode>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+    if (plots == null || plots.Length == 0) return false;
+
+    int maxIndex = Mathf.Max(0, maxLevels - 1);
+    for (int i = 0; i < plots.Length; i++)
+    {
+      var p = plots[i];
+      if (!p || !p.isBuilt || p.level < maxIndex)
+        return false;
+    }
+    return true;
+  }
+
+  private void WinNow(string reason)
+  {
+    var wc = FindFirstObjectByType<WaveController>();
+    if (wc != null) wc.SetGameOver();              // stop wave logic/state machine
+    if (GameScreens.main) GameScreens.main.ShowWin();
+    Debug.Log($"[WIN] {reason}");
+  }
+  // --- END NEW ---
 
   private void OnEnable()
   {
@@ -94,6 +121,9 @@ public class TowerSpawner : MonoBehaviour
     {
       label.Show(); // or label.Refresh();
     }
+
+    // --- NEW: one-liner victory check after a successful upgrade/build ---
+    if (AllPlotsMaxed()) WinNow("All buildings are Level 3");
   }
 }
 

@@ -72,18 +72,19 @@ public class WaveSource
 
   public WaveDef GetWave(int waveIndex)
   {
-    /* NOTE: implement procedural generation using budget for later waves.
-     *
-     * Returns wave by given index.
-     * */
-
     if (_root.waves == null || _root.waves.Count == 0) return null;
 
-    // make sure wave id is 0-index !!
+    // 1) Exact ID match (current behavior)
     var w = _root.waves.Find(x => x.id == waveIndex);
     if (w != null) return w;
 
-    return null;
+    // 2) Fallback: treat waveIndex as POSITION (0-based)
+    if (waveIndex >= 0 && waveIndex < _root.waves.Count)
+      return _root.waves[waveIndex];
+
+    // 3) Fallback: JSON might be 1-based
+    w = _root.waves.Find(x => x.id == waveIndex + 1);
+    return w;
   }
 
   public GameObject LoadPrefabFor(string enemyId)
@@ -99,16 +100,16 @@ public class WaveSource
 
     if (!_catalogById.TryGetValue(enemyId, out var entry))
     {
-        Debug.LogError($"WaveSource: enemy id '{enemyId}' not in catalog");
-        return null;
+      Debug.LogError($"WaveSource: enemy id '{enemyId}' not in catalog");
+      return null;
     }
 
     // expects prefabs inside of 05_Prefabs
     var go = Resources.Load<GameObject>(entry.prefab);
     if (go == null)
     {
-        Debug.LogError($"WaveSource: Resources.Load failed for path '{entry.prefab}' (enemy '{enemyId}').");
-        return null;
+      Debug.LogError($"WaveSource: Resources.Load failed for path '{entry.prefab}' (enemy '{enemyId}').");
+      return null;
     }
 
     _prefabCache[enemyId] = go;
